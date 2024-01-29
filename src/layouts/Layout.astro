@@ -1,0 +1,72 @@
+---
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+    </head>
+    <body>
+        <slot />
+    </body>
+    <footer>
+        <a href="/imprint">Imprint</a>
+        <a href="/privacy">Privacy Policy</a>
+        <p class="copyright">© The Metropoliplan Team 2017-2024</p>
+    </footer>
+</html>
+<style is:global>
+    :root {
+        --accent: 22, 29, 92;
+        --accent-light: 211, 211, 255;
+        --accent-dark: 22, 29, 92;
+        --accent-gradient: linear-gradient(
+            45deg,
+            rgb(var(--accent)),
+            rgb(var(--accent-light)) 30%,
+            white 60%
+        );
+    }
+    html {
+        font-family: system-ui, sans-serif;
+        background: #f4f4ff;
+        background-size: 224px;
+    }
+    code {
+        font-family:
+            Menlo,
+            Monaco,
+            Lucida Console,
+            Liberation Mono,
+            DejaVu Sans Mono,
+            Bitstream Vera Sans Mono,
+            Courier New,
+            monospace;
+    }
+    footer {
+        margin: auto;
+        padding: 1rem;
+        width: 800px;
+        max-width: calc(100% - 2rem);
+        text-align: center;
+    }
+    a,
+    a:visited {
+        color: rgb(var(--accent));
+    }
+    a + a {
+        margin-left: 16px;
+    }
+	.copyright {
+		font-size: 0.8rem;
+	}
+</style>
