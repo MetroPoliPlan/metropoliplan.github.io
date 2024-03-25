@@ -1,20 +1,17 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
+import { initI18n } from '../../i18n';
 
 export function getStaticPaths() {
-    return [
-        { params: { lang: 'de' } },
-        { params: { lang: 'es' } },
-    ];
+    return [{ params: { lang: 'de' } }, { params: { lang: 'es' } }];
 }
 
 const { lang } = Astro.params;
+const t = initI18n(lang);
 ---
 
-<Layout
-    title="Metropoliplan - Software for organizing metropolitan public whitnessing"
->
+<Layout title={`Metropoliplan - ${t('description')}`}>
     <main>
         <svg
             class="astro-a"
@@ -49,19 +46,18 @@ const { lang } = Astro.params;
                 d="M441 149L384 149V172L441 172V149ZM384 210H441C468.062 210 490 187.838 490 160.5C490 133.162 468.062 111 441 111H441H384L346 111V149L251 149V173L346 173V210V211L251 211V235H346V270H384V210ZM441 149C447.627 149 453 154.149 453 160.5C453 166.851 447.627 172 441 172L441 149Z"
                 fill="#21275C"></path>
         </svg>
-        <h1>Welcome to <span class="text-gradient">Metropoliplan</span></h1>
-        <p class="description">
-            A software for organizing metropolitan public whitnessing
-        </p>
+        <h1>
+            <span class="text-gradient">Metropoliplan</span>
+        </h1>
+        <p class="description">{t('description')}</p>
         <p class="info">
-            We're currently in the process of migrating content from our old
-            website...
+            {t('migration')}
         </p>
         <ul role="list" class="link-card-grid">
             <Card
                 href={`/index-${lang}.html`}
-                title="Documentation"
-                body="Learn how to use Metropoliplan"
+                title={t('documentation')}
+                body={t('documentationDescription')}
             />
         </ul>
     </main>
