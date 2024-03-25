@@ -6,6 +6,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
+
 ---
 
 <!doctype html>
@@ -21,8 +22,16 @@ const { title } = Astro.props;
         <slot />
     </body>
     <footer>
-        <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'imprint')}>Imprint</a>
-        <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'privacy')}>Privacy Policy</a>
+        <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'imprint')}
+            >Imprint</a
+        >
+        <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'privacy')}
+            >Privacy Policy</a
+        >
+        <ul>
+            <li><a href="/de">Deutsch</a></li>
+            <li><a href="/es">Español</a></li>
+        </ul>
         <p class="copyright">© The Metropoliplan Team 2017-2024</p>
     </footer>
 </html>
@@ -37,6 +46,16 @@ const { title } = Astro.props;
             rgb(var(--accent-light)) 30%,
             white 60%
         );
+    }
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    li {
+        display: inline;
+    }
+    li + li::before {
+        content: ' | ';
     }
     html {
         font-family: system-ui, sans-serif;
