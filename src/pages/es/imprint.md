@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Legal.astro
-title: Impressum
+title: Aviso legal
 ---
 
 # Impressum
