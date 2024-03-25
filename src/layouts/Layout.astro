@@ -1,4 +1,6 @@
 ---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+
 interface Props {
     title: string;
 }
@@ -19,8 +21,8 @@ const { title } = Astro.props;
         <slot />
     </body>
     <footer>
-        <a href="/imprint">Imprint</a>
-        <a href="/privacy">Privacy Policy</a>
+        <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'imprint')}>Imprint</a>
+        <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'privacy')}>Privacy Policy</a>
         <p class="copyright">© The Metropoliplan Team 2017-2024</p>
     </footer>
 </html>
@@ -66,7 +68,7 @@ const { title } = Astro.props;
     a + a {
         margin-left: 16px;
     }
-	.copyright {
-		font-size: 0.8rem;
-	}
+    .copyright {
+        font-size: 0.8rem;
+    }
 </style>

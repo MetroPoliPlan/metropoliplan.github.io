@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Card from '../../components/Card.astro';
 import { initI18n } from '../../i18n';
+import MepLogo from '../../components/MepLogo.astro';
 
 export function getStaticPaths() {
     return [{ params: { lang: 'de' } }, { params: { lang: 'es' } }];
@@ -13,39 +14,7 @@ const t = initI18n(lang);
 
 <Layout title={`Metropoliplan - ${t('description')}`}>
     <main>
-        <svg
-            class="astro-a"
-            width="200"
-            viewBox="0 0 514 295"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-        >
-            <rect x="83" y="111" width="69" height="158" fill="#777FC6"></rect>
-            <rect x="24" y="111" width="36" height="158" fill="#21275C"></rect>
-            <rect x="176" y="111" width="36" height="158" fill="#21275C"></rect>
-            <path
-                d="M45 115C49.8333 132.333 65.6 181 96 181"
-                stroke="#21275C"
-                stroke-width="31"></path>
-            <path
-                d="M191 115C186.167 132.333 170.4 181 140 181"
-                stroke="#21275C"
-                stroke-width="31"></path>
-            <path
-                d="M24 102C45.5391 102 63 84.5391 63 63C63 41.4609 45.5391 24 24 24V102Z"
-                fill="#777FC6"></path>
-            <path
-                d="M212 24C190.461 24 173 41.4609 173 63C173 84.5391 190.461 102 212 102L212 24Z"
-                fill="#777FC6"></path>
-            <rect x="212" y="111" width="134" height="158" fill="#777FC6"
-            ></rect>
-            <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M441 149L384 149V172L441 172V149ZM384 210H441C468.062 210 490 187.838 490 160.5C490 133.162 468.062 111 441 111H441H384L346 111V149L251 149V173L346 173V210V211L251 211V235H346V270H384V210ZM441 149C447.627 149 453 154.149 453 160.5C453 166.851 447.627 172 441 172L441 149Z"
-                fill="#21275C"></path>
-        </svg>
+        <MepLogo />
         <h1>
             <span class="text-gradient">Metropoliplan</span>
         </h1>
