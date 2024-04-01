@@ -1,1 +1,6 @@
-{}
+{
+    "description": "Un software para organizar testimonios públicos en áreas metropolitanas",
+    "migration": "Estamos en proceso de trasladar el contenido de nuestro antiguo sitio web aquí...",
+    "documentation": "Manual del Coordinador",
+    "documentationDescription": "Aprende cómo planificar la emisión de testimonios públicos en áreas urbanas con Metropoliplan."
+}
