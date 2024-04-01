@@ -1,6 +1,7 @@
 {
     "description": "Eine Software für das Organisieren von öffentlichem Zeugnisgeben in Ballungszentren",
-    "migration": "Wir sind gerade dabei Inhalte unserer alten Webseite hierhin umzuziehen...",
     "documentation": "Koordinatorenhandbuch",
-    "documentationDescription": "Lerne, wie man mit Metropoliplan das öffentliche Zeugnisgeben in Ballungszentren planen kann."
+    "documentationDescription": "Lerne, wie man mit Metropoliplan das öffentliche Zeugnisgeben in Ballungszentren planen kann.",
+    "status": "Statusseite",
+    "statusDescription": "Ist Metropoliplan gerade down? Welche Zwischenfälle gab es kürzlich?"
 }

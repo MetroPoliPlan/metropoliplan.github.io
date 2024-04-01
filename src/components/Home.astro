@@ -18,14 +18,16 @@ const t = initI18n(Astro.props.locale);
             <span class="text-gradient">Metropoliplan</span>
         </h1>
         <p class="description">{t('description')}</p>
-        <p class="info">
-            {t('migration')}
-        </p>
         <ul role="list" class="link-card-grid">
             <Card
                 href={`/index-${Astro.props.locale}.html`}
                 title={t('documentation')}
                 body={t('documentationDescription')}
+            />
+            <Card
+                href={`https://www.metropoliplan.org/MEP-Status/`}
+                title={t('status')}
+                body={t('statusDescription')}
             />
         </ul>
     </main>
@@ -61,6 +63,7 @@ const t = initI18n(Astro.props.locale);
         grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
         gap: 2rem;
         padding: 0;
+        margin-top: 64px;
     }
     .info {
         display: flex;
