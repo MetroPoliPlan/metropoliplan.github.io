@@ -1,5 +1,3 @@
 files:
   - source: /src/translations/de.json
     translation: /%original_path%/%two_letters_code%.json
-  - source: /src/pages/de/*.md
-    translation: /src/pages/%two_letters_code%/%original_file_name%
