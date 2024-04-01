@@ -2,6 +2,6 @@
     "description": "Un software para organizar testimonios públicos en áreas metropolitanas",
     "documentation": "Manual del Coordinador",
     "documentationDescription": "Aprende cómo planificar la emisión de testimonios públicos en áreas urbanas con Metropoliplan.",
-    "status": "Statusseite",
-    "statusDescription": "Ist Metropoliplan gerade down? Welche Zwischenfälle gab es kürzlich?"
+    "status": "Página de estado",
+    "statusDescription": "¿Metropoliplan está caído en este momento? ¿Qué incidentes ha habido recientemente?"
 }
