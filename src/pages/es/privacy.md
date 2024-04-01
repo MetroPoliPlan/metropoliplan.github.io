@@ -1,90 +1,90 @@
 ---
 layout: ../../layouts/Legal.astro
-title: Datenschutzerklärung
+title: Política de privacidad
 ---
 
-# Datenschutzerklärung
+# Política de privacidad
 
-## Wer wir sind
+## Quiénes somos
 
-Unsere Website-Adresse lautet: https\://www\.metropoliplan.org.
+Nuestra dirección de sitio web es: https\://www\.metropoliplan.org.
 
-## Welche personenbezogenen Daten wir erheben und warum wir sie erheben
+## Qué datos personales recopilamos y por qué los recopilamos
 
-### Kommentare
+### Comentarios
 
-Wenn Besucher Kommentare auf der Website hinterlassen, erfassen wir die im Kommentarformular angezeigten Daten sowie die IP-Adresse des Besuchers und die Zeichenfolge des Browser-Benutzer-Agents, um die Spam-Erkennung zu erleichtern.
+Cuando los visitantes dejan comentarios en el sitio web, recopilamos los datos que se muestran en el formulario de comentarios, así como la dirección IP del visitante y la cadena de agente de usuario del navegador, para facilitar la detección de spam.
 
-Eine anonymisierte Zeichenfolge, die aus Ihrer E-Mail-Adresse erstellt wurde (auch Hash genannt), kann dem Gravatar-Dienst zur Verfügung gestellt werden, um zu sehen, ob Sie sie verwenden. Die Datenschutzrichtlinie für den Gravatar-Dienst finden Sie hier: https\://automattic.com/privacy/. Nach Freigabe Ihres Kommentars ist Ihr Profilbild im Kontext Ihres Kommentars für die Öffentlichkeit sichtbar.
+Una cadena de caracteres anonimizada creada a partir de tu dirección de correo electrónico (también conocida como hash) puede ser proporcionada al servicio de Gravatar para ver si la estás utilizando. Puedes encontrar la política de privacidad del servicio de Gravatar aquí: https\://automattic.com/privacy/. Después de aprobar tu comentario, tu imagen de perfil será visible al público en el contexto de tu comentario.
 
-### Medien
+### Medios
 
-Wenn Sie Bilder auf die Website hochladen, sollten Sie das Hochladen von Bildern mit eingebetteten Standortdaten (EXIF GPS) vermeiden. Besucher der Website können beliebige Standortdaten aus Bildern auf der Website herunterladen und extrahieren.
+Cuando subas imágenes al sitio web, debes evitar subir imágenes con datos de ubicación incrustados (EXIF GPS). Los visitantes del sitio web pueden descargar y extraer cualquier dato de ubicación de las imágenes en el sitio web.
 
-### Kontaktformulare
+### Formularios de contacto
 
 ### Cookies
 
-Wenn Sie einen Kommentar auf unserer Website hinterlassen, können Sie sich dafür entscheiden, Ihren Namen, Ihre E-Mail-Adresse und Ihre Website in Cookies zu speichern. Diese dienen Ihrer Bequemlichkeit, damit Sie Ihre Daten nicht erneut eingeben müssen, wenn Sie einen weiteren Kommentar hinterlassen. Diese Cookies halten ein Jahr.
+Cuando dejas un comentario en nuestro sitio web, puedes optar por guardar tu nombre, dirección de correo electrónico y sitio web en cookies. Estas cookies son para tu conveniencia, para que no tengas que volver a ingresar tus datos cuando dejes otro comentario. Estas cookies duran un año.
 
-Wenn Sie unsere Login-Seite besuchen, setzen wir ein temporäres Cookie, um festzustellen, ob Ihr Browser Cookies akzeptiert. Dieses Cookie enthält keine personenbezogenen Daten und wird verworfen, wenn Sie Ihren Browser schließen.
+Cuando visite nuestra página de inicio de sesión, colocamos una cookie temporal para determinar si su navegador acepta cookies. Esta cookie no contiene datos personales y se eliminará cuando cierre su navegador.
 
-Wenn Sie sich anmelden, werden wir auch mehrere Cookies einrichten, um Ihre Anmeldeinformationen und Ihre Bildschirmanzeigeoptionen zu speichern. Login-Cookies halten zwei Tage und Bildschirmoptionen ein Jahr lang. Wenn Sie “Remember Me” auswählen, bleibt Ihr Login zwei Wochen lang bestehen. Wenn Sie sich aus Ihrem Konto ausloggen, werden die Login-Cookies entfernt.
+Cuando inicies sesión, también estableceremos varias cookies para guardar tus datos de inicio de sesión y tus opciones de visualización. Las cookies de inicio de sesión se mantienen durante dos días y las opciones de visualización durante un año. Si seleccionas "Recordarme", tu inicio de sesión se mantendrá durante dos semanas. Si cierras sesión en tu cuenta, las cookies de inicio de sesión serán eliminadas.
 
-Wenn Sie einen Artikel bearbeiten oder veröffentlichen, wird ein zusätzliches Cookie in Ihrem Browser gespeichert. Dieses Cookie enthält keine personenbezogenen Daten und zeigt lediglich die Post-ID des Artikels an, den Sie gerade bearbeitet haben. Es läuft nach 1 Tag ab.
+Cuando editas o publicas un artículo, se guarda una cookie adicional en tu navegador. Esta cookie no contiene datos personales y solo muestra el ID de publicación del artículo que estás editando. Caduca después de 1 día.
 
-## Eingebettete Inhalte von anderen Websites
+## Contenido incrustado de otros sitios web
 
-Artikel auf dieser Website können eingebettete Inhalte enthalten (z. B. Videos, Bilder, Artikel usw.). Eingebettete Inhalte von anderen Websites verhalten sich genauso, als hätte der Besucher die andere Website besucht.
+Los artículos en este sitio web pueden contener contenido incrustado (por ejemplo, videos, imágenes, artículos, etc.). El contenido incrustado de otros sitios web se comporta de la misma manera que si el visitante hubiera visitado el otro sitio web.
 
-Diese Websites können Daten über Sie sammeln, Cookies verwenden, zusätzliches Tracking von Drittanbietern einbetten und Ihre Interaktion mit diesen eingebetteten Inhalten überwachen, einschließlich der Verfolgung Ihrer Interaktion mit den eingebetteten Inhalten, wenn Sie ein Konto haben und auf dieser Website angemeldet sind.
+Estos sitios web pueden recopilar datos sobre ti, utilizar cookies, incrustar seguimiento adicional de terceros y supervisar tu interacción con este contenido incrustado, incluido el seguimiento de tu interacción con el contenido incrustado si tienes una cuenta y estás conectado en este sitio web.
 
-## Analytik
+## Análisis
 
-### An wen wir Ihre Daten weitergeben
+### A quién compartimos sus datos
 
-Tatsächlich teilen wir die Daten mit niemandem außerhalb des Projekts. Alle Daten werden nur für den vorgesehenen Zweck (Planung und Zuordnung von Schichten) verwendet. Es werden keine personenbezogenen Daten weitergegeben. Sie ist auf den jeweiligen Mieter beschränkt und auch für andere Mieter nicht einsehbar.
+De hecho, no compartimos los datos con nadie fuera del proyecto. Todos los datos se utilizan únicamente para el propósito previsto (planificación y asignación de turnos). No se comparten datos personales. Está limitado al inquilino respectivo y no es visible para otros inquilinos.
 
-Analysedaten können gesammelt werden. Aber dann nur in anonymisierter Form nur zur Fehlerbehebung.
+Los datos de análisis pueden ser recopilados. Pero solo en forma anonimizada y solo para solucionar errores.
 
-### Wie lange wir Ihre Daten aufbewahren
+### Cuánto tiempo conservamos sus datos
 
-Wenn Sie einen Kommentar hinterlassen, werden der Kommentar und seine Metadaten auf unbestimmte Zeit beibehalten. Auf diese Weise können wir alle Folgekommentare automatisch erkennen und genehmigen, anstatt sie in einer Moderationswarteschlange zu halten.
+Cuando dejes un comentario, se conservará el comentario y sus metadatos de forma indefinida. De esta manera, podemos reconocer y aprobar automáticamente todos los comentarios posteriores en lugar de mantenerlos en una cola de moderación.
 
-Für Benutzer, die sich auf unserer Website registrieren (falls vorhanden), speichern wir auch die persönlichen Informationen, die sie in ihrem Benutzerprofil angeben. Alle Benutzer können ihre persönlichen Daten jederzeit einsehen, bearbeiten oder löschen (außer dass sie ihren Benutzernamen nicht ändern können). Website-Administratoren können diese Informationen auch anzeigen und bearbeiten.
+Para los usuarios que se registran en nuestro sitio web (si los hay), también almacenamos la información personal que proporcionan en su perfil de usuario. Todos los usuarios pueden ver, editar o eliminar sus datos personales en cualquier momento (excepto que no pueden cambiar su nombre de usuario). Los administradores del sitio web también pueden ver y editar esta información.
 
-### Welche Rechte Sie an Ihren Daten haben
+### Qué derechos tienes sobre tus datos
 
-Wenn Sie ein Konto auf dieser Website haben oder Kommentare hinterlassen haben, können Sie beantragen, eine exportierte Datei der personenbezogenen Daten zu erhalten, die wir über Sie gespeichert haben, einschließlich aller Daten, die Sie uns zur Verfügung gestellt haben. Sie können auch verlangen, dass wir alle personenbezogenen Daten, die wir über Sie gespeichert haben, löschen. Dies gilt nicht für Daten, zu deren Aufbewahrung wir für administrative, rechtliche oder Sicherheitszwecke verpflichtet sind.
+Si tienes una cuenta en este sitio web o has dejado comentarios, puedes solicitar recibir un archivo exportado con los datos personales que tenemos almacenados sobre ti, incluyendo cualquier dato que nos hayas proporcionado. También puedes solicitar que eliminemos todos los datos personales que tenemos almacenados sobre ti. Esto no incluye los datos que estamos obligados a conservar por razones administrativas, legales o de seguridad.
 
-### Wohin wir Ihre Daten senden
+### A dónde enviamos tus datos
 
-Besucherkommentare können über einen automatisierten Spam-Erkennungsdienst überprüft werden.
+Los comentarios de los visitantes pueden ser verificados a través de un servicio automatizado de detección de spam.
 
-### Ihre Kontaktinformationen
+### Sus datos de contacto
 
-Senden Sie eine E-Mail an: team (-At-) metropoliplan.org
+Envíe un correo electrónico a: team (-At-) metropoliplan.org
 
-## Zusatzinformation
+## Información adicional
 
-### Wie wir Ihre Daten schützen
+### Cómo protegemos sus datos
 
-Wir verwenden modernste Sicherheitsdesignprinzipien und halten uns strikt an die Globale Datenschutzgrundverordnung (EU-DSGVO). Weitere Informationen finden Sie auch in der Datenschutzerklärung von MEtropoliplan, die über das Hauptmenü zugänglich ist.
+Utilizamos los principios de diseño de seguridad más avanzados y nos adherimos estrictamente al Reglamento General de Protección de Datos (RGPD) de la UE. También puede encontrar más información en la política de privacidad de MEtropoliplan, a la que se puede acceder a través del menú principal.
 
-Alle Daten werden während des Transports und im Ruhezustand verschlüsselt (z.B. SSL, Datenbankverschlüsselung etc.)
+Todos los datos se cifran durante el transporte y en reposo (por ejemplo, SSL, cifrado de bases de datos, etc.)
 
-### Welche Datenschutzverletzungsverfahren wir eingerichtet haben
+### Qué procedimientos de violación de privacidad hemos establecido
 
-Im Falle einer Datenschutzverletzung werden alle Mandantenadministratoren informiert, um dem Benutzer die nächsten notwendigen Schritte mitteilen zu können.
+En caso de una violación de privacidad, se informará a todos los administradores de los clientes para poder proporcionar al usuario los siguientes pasos necesarios.
 
-### Von welchen Dritten wir Daten erhalten
+### De quiénes recibimos datos
 
-Wir erhalten keine zusätzlichen Daten von 3rd-Parteien.
+No recibimos datos adicionales de terceros.
 
-### Welche automatisierte Entscheidungsfindung und/oder Profilerstellung wir mit Benutzerdaten durchführen
+### Qué toma de decisiones automatizada y/o creación de perfiles realizamos con los datos del usuario
 
-Auf Website-Ebene gibt es keine automatisierte Entscheidungsfindung oder Profilerstellung. Innerhalb von MEtropoliPlan haben wir einen automatisierten Zuordnungsroboter.
+A nivel de sitio web, no hay toma de decisiones automatizada ni creación de perfiles. Dentro de MEtropoliPlan, contamos con un robot de asignación automatizada.
 
-### Offenlegungspflichten der Branche
+### Obligaciones de divulgación de la industria
 
-Dies gilt weder für diese Website noch für die MEtropoliplan-Software.
+Esto no se aplica ni a este sitio web ni al software Metropoliplan.
