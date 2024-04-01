@@ -1,75 +1,11 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import Card from '../../components/Card.astro';
-import { initI18n } from '../../i18n';
-import MepLogo from '../../components/MepLogo.astro';
+import Home from '../../components/Home.astro';
 
 export function getStaticPaths() {
-    return [{ params: { lang: 'de' } }, { params: { lang: 'es' } }];
+    return [{ params: { lang: 'es' } }];
 }
 
 const { lang } = Astro.params;
-const t = initI18n(lang);
 ---
 
-<Layout title={`Metropoliplan - ${t('description')}`}>
-    <main>
-        <MepLogo />
-        <h1>
-            <span class="text-gradient">Metropoliplan</span>
-        </h1>
-        <p class="description">{t('description')}</p>
-        <p class="info">
-            {t('migration')}
-        </p>
-        <ul role="list" class="link-card-grid">
-            <Card
-                href={`/index-${lang}.html`}
-                title={t('documentation')}
-                body={t('documentationDescription')}
-            />
-        </ul>
-    </main>
-</Layout>
-
-<style>
-    main {
-        margin: auto;
-        padding: 1rem;
-        width: 800px;
-        max-width: calc(100% - 2rem);
-        color: rgb(--accent-dark);
-        font-size: 20px;
-        line-height: 1.6;
-    }
-    h1 {
-        font-size: clamp(3rem, 3.464vw + 2.229rem, 5rem);
-        font-weight: 700;
-        line-height: 1;
-        margin-bottom: 0;
-    }
-    .text-gradient {
-        color: rgb(var(--accent));
-    }
-    .description {
-        margin-top: 16px;
-        font-size: 28px;
-        font-weight: 500;
-        line-height: 1.1;
-    }
-    .link-card-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-        gap: 2rem;
-        padding: 0;
-    }
-    .info {
-        display: flex;
-        padding: 24px;
-        background-color: #fffad4;
-        color: #908100;
-        border: 2px solid #f6e760;
-        border-radius: 7px;
-        transition: transform 100ms ease-in-out;
-    }
-</style>
+<Home locale={lang} />
