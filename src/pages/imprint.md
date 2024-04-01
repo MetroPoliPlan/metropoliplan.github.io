@@ -1,5 +1,5 @@
 ---
-layout: '../../layouts/Legal.astro'
+layout: '../layouts/Legal.astro'
 title: 'Impressum'
 ---
 
