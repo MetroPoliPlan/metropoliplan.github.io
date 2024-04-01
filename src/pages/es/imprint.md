@@ -1,62 +1,62 @@
 ---
 layout: ../../layouts/Legal.astro
-title: Impressum
+title: Aviso legal
 ---
 
-# Impressum
+# Aviso legal
 
-Betreiber:
+Operador:
 
 Jörg Wunderlich
 
-Ladungsfähige Anschrift
+Dirección de carga válida
 
-Samuel Menigat\
-c/o Jörg Wunderlich\
-Sunset Court Fl. 2\
-Triq L-Imriekeb\
-MSK3535 Marsaskala\
-Malta\ <br/>Tel: +4917623198672\
+Samuel Menigatc/o Jörg Wunderlich
+Sunset Court Fl. 2
+Triq L-Imriekeb
+MSK3535 Marsaskala
+Malta
+Tel: +4917623198672
 [team@metropoliplan.org](mailto:team@metropoliplan.org)
 
-## Disclaimer – rechtliche Hinweise
+## Descargo de responsabilidad - avisos legales
 
-### Zweck der Webseite
+### Propósito del sitio web
 
-Der Zweck dieser Webseite besteht darin im Rahmen einer geschlossenen Benutzergruppe über die Funktionalitäten der Planungssoftware Metropoliplan zu informieren. Metropoliplan ist ein privates Projekt zur Organisation des Öffentlichen Zeugnisgebens in Ballungszentren. Es steht kostenfrei ausschließlich Zeugen Jehovas zur Verfügung.
+El propósito de este sitio web es proporcionar información sobre las funcionalidades del software de planificación Metropoliplan dentro de un grupo de usuarios cerrado. Metropoliplan es un proyecto privado para organizar el testimonio público en áreas urbanas. Está disponible de forma gratuita exclusivamente para los Testigos de Jehová.
 
-### Auskunfts- und Widerrufsrecht
+### Derecho de información y revocación
 
-Sie haben jederzeit das Recht, sich unentgeltlich und unverzüglich über die zu Ihrer Person erhobenen Daten zu erkundigen. Ebenfalls können Sie Ihre Zustimmung zur Verwendung Ihrer angegebenen persönlichen Daten mit Wirkung für die Zukunft widerrufen. Hierfür wenden Sie sich bitte an den im Impressum angegebenen Diensteanbieter.
+En cualquier momento, usted tiene el derecho de solicitar de forma gratuita e inmediata información sobre los datos recopilados sobre su persona. También puede revocar su consentimiento para el uso de sus datos personales proporcionados, con efecto para el futuro. Para ello, por favor, póngase en contacto con el proveedor de servicios indicado en el aviso legal.
 
-### Datenschutz (allgemein)
+### Protección de datos (general)
 
-Beim Zugriff auf unsere Webseite werden automatisch allgemeine Informationen (sog. Server-Logfiles) erfasst. Diese beinhalten u.a. den von Ihnen verwendeten Webbrowser sowie Ihr Betriebssystem und Ihren Internet Service Provider. Diese Daten lassen keinerlei Rückschlüsse auf Ihre Person zu und werden von uns statistisch ausgewertet, um unseren Internetauftritt technisch und inhaltlich zu verbessern. Das Erfassen dieser Informationen ist notwendig, um den Inhalt der Webseite korrekt ausliefern zu können.
+Al acceder a nuestro sitio web, se recopilan automáticamente información general (llamados archivos de registro del servidor). Esto incluye, entre otros, el navegador web que está utilizando, su sistema operativo y su proveedor de servicios de Internet. Estos datos no permiten identificarlo personalmente y los analizamos estadísticamente para mejorar técnicamente y en contenido nuestra presencia en Internet. La recopilación de esta información es necesaria para poder entregar correctamente el contenido del sitio web.
 
-Die Nutzung der Webseite ist grundsätzlich ohne Angabe personenbezogener Daten möglich. Soweit personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
+El uso del sitio web es en principio posible sin proporcionar datos personales. En la medida de lo posible, la recopilación de datos personales (como nombre, dirección o direcciones de correo electrónico) se realiza siempre de forma voluntaria. Estos datos no se divulgarán a terceros sin su consentimiento expreso.
 
-Sofern ein Vertragsverhältnis begründet, inhaltlich ausgestaltet oder geändert werden soll oder Sie an uns eine Anfrage stellen, erheben und verwenden wir personenbezogene Daten von Ihnen, soweit dies zu diesem Zwecke erforderlich ist (Bestandsdaten). Wir erheben, verarbeiten und nutzen personenbezogene Daten soweit dies erforderlich ist, um Ihnen die Inanspruchnahme des Webangebots zu ermöglichen (Nutzungsdaten). Sämtliche personenbezogenen Daten werden nur solange gespeichert wie dies für den genannten Zweck (Bearbeitung Ihrer Anfrage oder Abwicklung eines Vertrags) erforderlich ist. Hierbei werden steuer- und handelsrechtliche Aufbewahrungsfristen von uns berücksichtigt. Auf Anordnung der zuständigen Stellen müssen wir im Einzelfall Auskunft über diese Daten (Bestandsdaten) erteilen, soweit dies für Zwecke der Strafverfolgung, zur Gefahrenabwehr, zur Erfüllung der gesetzlichen Aufgaben der Verfassungsschutzbehörden oder des Militärischen Abschirmdienstes oder zur Durchsetzung der Rechte am geistigen Eigentum erforderlich ist.
+En caso de que se establezca, modifique o se solicite una relación contractual, o nos envíe una consulta, recopilaremos y utilizaremos sus datos personales en la medida en que sea necesario para este fin (datos de registro). Recopilamos, procesamos y utilizamos datos personales en la medida en que sea necesario para permitirle utilizar la oferta web (datos de uso). Todos los datos personales se almacenarán solo durante el tiempo necesario para el propósito mencionado (procesamiento de su consulta o ejecución de un contrato). En este caso, tendremos en cuenta los plazos de retención establecidos por la ley fiscal y comercial. Bajo orden de las autoridades competentes, en casos individuales, debemos proporcionar información sobre estos datos (datos de registro) en la medida en que sea necesario para fines de aplicación de la ley penal, prevención de riesgos, cumplimiento de las tareas legales de las agencias de protección constitucional o del Servicio de Contrainteligencia Militar, o para hacer valer los derechos de propiedad intelectual.
 
-Wir weisen ausdrücklich darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Vor dem Zugriff auf Daten kann nicht lückenlos geschützt werden.
+Queremos señalar expresamente que la transmisión de datos a través de Internet (por ejemplo, en la comunicación por correo electrónico) puede tener vulnerabilidades de seguridad. No se puede garantizar una protección completa antes del acceso a los datos.
 
-Die Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich untersagt. Ausgenommen hiervon sind bestehende Geschäftsbeziehungen bzw. es liegt Ihnen eine entsprechende Einwilligung von uns vor.
+Se prohíbe expresamente el uso de los datos de contacto publicados en el marco de la obligación de impresión para el envío de publicidad y materiales informativos no solicitados. Esto no se aplica a las relaciones comerciales existentes o si tenemos su consentimiento correspondiente.
 
-Die Anbieter und alle auf dieser Website genannten Dritten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen vor. Gleiches gilt für die kommerzielle Verwendung und Weitergabe der Daten.
+Los proveedores y todas las terceras partes mencionadas en este sitio web se reservan expresamente el derecho de emprender acciones legales en caso de recibir información publicitaria no solicitada. Lo mismo se aplica al uso comercial y la divulgación de los datos.
 
-### Datenschutz (Kommentarfunktion)
+### Protección de datos (función de comentarios)
 
-Im Rahmen der Kommentarfunktion unseres Blogs erheben wir personenbezogene Daten (z. B. Name, E-Mail) im Rahmen Ihrer Kommentierung zu einem Beitrag nur in dem Umfang wie Sie ihn uns mitgeteilt haben. Bei der Veröffentlichung eines Kommentars wird die von Ihnen angegebene Email-Adresse gespeichert, aber nicht veröffentlicht. Ihr angegebener Name wird veröffentlich. Sie können auch ein Pseudonym benutzen.
+En el marco de la función de comentarios de nuestro blog, recopilamos datos personales (por ejemplo, nombre, correo electrónico) solo en la medida en que nos los haya proporcionado al comentar una publicación. Al publicar un comentario, se guarda la dirección de correo electrónico que ha proporcionado, pero no se publica. Su nombre indicado se publicará. También puede utilizar un seudónimo.
 
-## Disclaimer (Haftungsausschluss)
+## Descargo de responsabilidad (exclusión de responsabilidad)
 
-### 1. Haftung für Inhalte
+### 1. Responsabilidad por el contenido
 
-Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+Como proveedor de servicios, somos responsables según el § 7 Abs. 1 TMG de los contenidos propios de estas páginas de acuerdo con las leyes generales. Sin embargo, según los §§ 8 a 10 TMG, como proveedor de servicios no estamos obligados a supervisar la información transmitida o almacenada de terceros ni a investigar circunstancias que indiquen una actividad ilegal. Las obligaciones de eliminar o bloquear el uso de información según las leyes generales no se ven afectadas por esto. Sin embargo, la responsabilidad en este sentido solo es posible a partir del momento en que se tiene conocimiento de una infracción concreta. En caso de que tengamos conocimiento de infracciones legales correspondientes, eliminaremos de inmediato estos contenidos.
 
-### 2. Haftung für Links
+### 2. Responsabilidad por enlaces
 
-Diese Website enthält Links zu externen Webseiten Dritter, auf deren Inhalte kein Einfluss genommen werden kann. Deshalb kann für diese fremden Inhalte auch keine Gewähr übernommen werden. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden derartige Links umgehend von dieser Website auf die rechtsverletzende Site entfernen.
+Este sitio web contiene enlaces a sitios web externos de terceros, sobre los cuales no se puede ejercer ningún control. Por lo tanto, no se puede garantizar la exactitud de los contenidos de estos sitios externos. El proveedor u operador de los sitios enlazados es el único responsable de sus contenidos. Los sitios enlazados fueron revisados en el momento de la vinculación para detectar posibles infracciones legales. En ese momento, no se encontraron contenidos ilegales. Sin embargo, no es razonable realizar un control permanente del contenido de los sitios enlazados sin pruebas concretas de una violación de la ley. En caso de que se detecten violaciones de la ley, los enlaces correspondientes serán eliminados inmediatamente de este sitio web.
 
-### 3. Urheberrecht
+### 3. Derechos de autor
 
-Die durch die Diensteanbieter, deren Mitarbeiter und beauftragte Dritte erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der vorherigen schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden derartige Inhalte umgehend entfernen.
+Los contenidos y obras creados por los proveedores de servicios, sus empleados y terceros contratados en estas páginas están sujetos al derecho de autor alemán. La reproducción, modificación, distribución y cualquier forma de explotación fuera de los límites del derecho de autor requieren el consentimiento previo por escrito del respectivo autor o creador. Las descargas y copias de esta página solo están permitidas para uso privado y no comercial. En la medida en que los contenidos de esta página no hayan sido creados por el operador, se respetarán los derechos de autor de terceros. En particular, los contenidos de terceros se identificarán como tales. Si a pesar de ello se detecta una infracción de derechos de autor, le pedimos que nos lo comunique. En caso de que se produzcan infracciones legales, se eliminarán dichos contenidos de inmediato.
