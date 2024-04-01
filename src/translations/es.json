@@ -1,7 +1,7 @@
 {
-    "description": "Un software para organizar testimonios públicos en áreas metropolitanas",
+    "description": "Un software para organizar la Predicación Pública en Áreas Metropolitanas",
     "documentation": "Manual del Coordinador",
-    "documentationDescription": "Aprende cómo planificar la emisión de testimonios públicos en áreas urbanas con Metropoliplan.",
+    "documentationDescription": "Aprende cómo planificar la PPAM usando Metropoliplan.",
     "status": "Página de estado",
-    "statusDescription": "¿Metropoliplan está caído en este momento? ¿Qué incidentes ha habido recientemente?"
+    "statusDescription": "¿Metropoliplan está caído en este momento? ¿Qué incidentes había recién?"
 }
