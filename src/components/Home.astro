@@ -20,6 +20,11 @@ const t = initI18n(Astro.props.locale);
         <p class="description">{t('description')}</p>
         <ul role="list" class="link-card-grid">
             <Card
+                href={`/about`}
+                title={t('about')}
+                body={t('aboutDescription')}
+            />
+            <Card
                 href={`/index-${Astro.props.locale}.html`}
                 title={t('documentation')}
                 body={t('documentationDescription')}
