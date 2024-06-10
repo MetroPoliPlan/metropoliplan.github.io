@@ -7,18 +7,17 @@ title: 'Übersicht'
 
 ## Zweck von Metropoliplan
 
-Metropoliplan wurde entwickelt für die speziellen Bedürfnisse des öffentlichen Zeugnisgebens in Metropolregionen. Zudem wurden auch Prozesse für das Zeugnisgeben auf Rastplätzen integriert.  
+Metropoliplan wurde für die speziellen Bedürfnisse des öffentlichen Zeugnisgebens in Metropolregionen entwickelt. Zudem wurden auch Prozesse für das Zeugnisgeben auf Rastplätzen integriert.  
 
-Diese Software ist NICHT gedacht für das Trolley Zeugnisgeben auf Versammlungsebene. Hier ist ein einfaches Google Spreadsheet oder Excel Online wesentlich einfacher insofern sich die Gruppen dann selbst organisieren können.
+Diese Software ist nicht für das Trolley Zeugnisgeben auf Versammlungsebene gedacht.
 
-Die Zielgruppe von Metropoliplan sind speziell Organisationsteams die große Projekte mit vielen Versammlungen koordinieren müssen. In diesen Größenordnungen funktioniert die Selbstorganisation nicht mehr und erfordert mehr Einflußnahme.
+Die Zielgruppe von Metropoliplan sind speziell Organisationsteams, die große Projekte mit vielen Versammlungen koordinieren müssen. In diesen Größenordnungen funktioniert die Selbstorganisation nicht mehr und erfordert mehr Einflußnahme.
 
 ## Funktionen
 
 ### Metropoliplan ist:
 
-* eine zentral gehostete Website  
-(d.h. Ihr müsst keinen eigenen Betrieb gewährleisten)
+* eine zentral gehostete Website (d.h. Ihr müsst keinen eigenen Betrieb gewährleisten)
 * mit jedem modernen Browser nutzbar (keine Apps nötig)
 * eine mehrsprachige Lösung:
   * Englisch
@@ -28,7 +27,7 @@ Die Zielgruppe von Metropoliplan sind speziell Organisationsteams die große Pro
   * Russisch
   * (weitere Sprachen auf Anfrage)
 * Mehrmandantenfähig (d.h. wenn Ihr Verkündiger habt die in mehreren Projekten tätig sind, können sie die gleichen Login Daten verwenden)
-* kostenfrei (obwohl wir uns über eine kleine freiwillige finanzielle Unterstützung für den Betrieb freuen)
+* kostenfrei (aber durch eure freiwilligen Spenden unterstützt)
 * optimiert für große und sehr große Projekte (50-5000 User)
 * Datenschutzkonform (DSGVO)
   * berücksichtigt die aktuellen Anforderungen

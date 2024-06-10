@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Card from './Card.astro';
 import { initI18n } from '../i18n';
 import MepLogo from './MepLogo.astro';
+import { getRelativeLocaleUrl } from 'astro:i18n';
 
 interface Props {
     locale: string;
@@ -20,7 +21,7 @@ const t = initI18n(Astro.props.locale);
         <p class="description">{t('description')}</p>
         <ul role="list" class="link-card-grid">
             <Card
-                href={`/about`}
+                href={getRelativeLocaleUrl(Astro.props.locale, "about")}
                 title={t('about')}
                 body={t('aboutDescription')}
             />
