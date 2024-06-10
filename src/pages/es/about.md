@@ -12,6 +12,16 @@ Metropoliplan se desarrolló para las necesidades especiales de la testificació
 Este software NO está diseñado para carros de testificación a nivel de congregación. Una simple hoja de cálculo de Google o Excel Online es mucho más fácil aquí, ya que los grupos pueden organizarse.
 
 Los grupos objetivo de Metropoliplan son específicamente equipos organizativos que tienen que coordinar grandes proyectos con muchas congregaciones. En estas escalas, la autoorganización ya no funciona y requiere más control.
+ 
+## Interfaz de usuario
+
+/UserAndAdminDashboard.png
+
+Panel de usuario que muestra noticias y también aplicaciones y asignaciones recientes.
+
+/PlannerCalender.png
+
+Vista de administrador en el calendario de planificación. El calendario de aplicaciones y el calendario de planificación funcionan de la misma forma sencilla que le gustaría utilizar su calendario de Microsoft Outlook.
 
 ## Características
 

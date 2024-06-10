@@ -12,6 +12,16 @@ Metropoliplan wurde für die speziellen Bedürfnisse des öffentlichen Zeugnisge
 Diese Software ist nicht für das Trolley Zeugnisgeben auf Versammlungsebene gedacht.
 
 Die Zielgruppe von Metropoliplan sind speziell Organisationsteams, die große Projekte mit vielen Versammlungen koordinieren müssen. In diesen Größenordnungen funktioniert die Selbstorganisation nicht mehr und erfordert mehr Einflußnahme.
+  
+## User Interface
+
+/UserAndAdminDashboard.png
+
+User Dashboard das sowohl Neuigkeiten anzeigt, als auch aktuelle Bewerbungen und Zuteilungen anzeigt. 
+
+/PlannerCalender.png
+
+Admin Ansicht auf den Planungskalender. Sowohl die Bewerbung als auch Planung funktioniert intuitiv wie bei einem Microsoft Outlook Kalender.
 
 ## Funktionen
 

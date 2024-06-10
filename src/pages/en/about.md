@@ -12,6 +12,16 @@ Metropoliplan was developed for the special needs of public witnessing in metrop
 This software is NOT intended for congregation-level witnessing carts. A simple Google Spreadsheet or Excel Online is much easier here, as the groups can then organize themselves.
 
 Metropoliplan's target groups are specifically organizational teams that have to coordinate large projects with many congregations. On these scales, self-organization no longer works and requires more control.
+ 
+## User Interface
+
+/UserAndAdminDashboard.png
+
+User Dashboard showing news and also recent applications and assignments.
+
+/PlannerCalender.png
+
+Admin view on planning calendar. Application calendar and planning calendar working in the same simple way as you would like use your Microsoft Outlook calender.
 
 ## Features
 
