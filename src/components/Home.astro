@@ -23,12 +23,16 @@ const t = initI18n(Astro.props.locale);
                 href={`/index-${Astro.props.locale}.html`}
                 title={t('documentation')}
                 body={t('documentationDescription')}
-            />
+            >
+                <span slot="icon">📘</span>
+            </Card>
             <Card
                 href={`https://www.metropoliplan.org/MEP-Status/`}
                 title={t('status')}
                 body={t('statusDescription')}
-            />
+            >
+                <span slot="icon">🚥</span>
+            </Card>
         </ul>
     </main>
 </Layout>
@@ -42,6 +46,7 @@ const t = initI18n(Astro.props.locale);
         color: rgb(--accent-dark);
         font-size: 20px;
         line-height: 1.6;
+        margin-bottom: 64px;
     }
     h1 {
         font-size: clamp(3rem, 3.464vw + 2.229rem, 5rem);
@@ -50,7 +55,10 @@ const t = initI18n(Astro.props.locale);
         margin-bottom: 0;
     }
     .text-gradient {
-        color: rgb(var(--accent));
+        color: #777fc6;
+        background: var(--accent-gradient);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .description {
         margin-top: 16px;
