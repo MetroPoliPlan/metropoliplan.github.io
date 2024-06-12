@@ -15,11 +15,11 @@ Die Zielgruppe von Metropoliplan sind speziell Organisationsteams, die große Pr
   
 ## User Interface
 
-/UserAndAdminDashboard.png
+![Dashboard](/dashboard.png)
 
 User Dashboard das sowohl Neuigkeiten anzeigt, als auch aktuelle Bewerbungen und Zuteilungen anzeigt. 
 
-/PlannerCalender.png
+![Calendar](/weekplan.png)
 
 Admin Ansicht auf den Planungskalender. Sowohl die Bewerbung als auch Planung funktioniert intuitiv wie bei einem Microsoft Outlook Kalender.
 
