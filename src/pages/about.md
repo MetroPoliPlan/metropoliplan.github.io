@@ -7,21 +7,19 @@ title: 'Übersicht'
 
 ## Zweck von Metropoliplan
 
-Metropoliplan wurde für die speziellen Bedürfnisse des öffentlichen Zeugnisgebens in Metropolregionen entwickelt. Zudem wurden auch Prozesse für das Zeugnisgeben auf Rastplätzen integriert.  
+Metropoliplan wurde für die Bedürfnisse des öffentlichen Zeugnisgebens in Ballungszentren und des Fernfahrer- und Parkplatzdienstes entwickelt.
 
-Diese Software ist nicht für das Trolley Zeugnisgeben auf Versammlungsebene gedacht.
-
-Die Zielgruppe von Metropoliplan sind speziell Organisationsteams, die große Projekte mit vielen Versammlungen koordinieren müssen. In diesen Größenordnungen funktioniert die Selbstorganisation nicht mehr und erfordert mehr Einflußnahme.
+Die Zielgruppe von Metropoliplan sind speziell Organisationsteams, die große Projekte mit vielen Versammlungen koordinieren.
   
 ## User Interface
 
 ![Dashboard](/dashboard.png)
 
-User Dashboard das sowohl Neuigkeiten anzeigt, als auch aktuelle Bewerbungen und Zuteilungen anzeigt. 
+User Dashboard das sowohl Neuigkeiten als auch aktuelle Bewerbungen und Zuteilungen anzeigt. 
 
 ![Calendar](/weekplan.png)
 
-Admin Ansicht auf den Planungskalender. Sowohl die Bewerbung als auch Planung funktioniert intuitiv wie bei einem Microsoft Outlook Kalender.
+Ansicht auf den Planungskalender für Koordinatoren.
 
 ## Funktionen
 
