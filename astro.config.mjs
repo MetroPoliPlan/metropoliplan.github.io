@@ -5,6 +5,6 @@ export default defineConfig({
     site: 'https://www.metropoliplan.org',
     i18n: {
         defaultLocale: 'de',
-        locales: ['de', 'es'],
+        locales: ['de', 'es', 'en'],
     },
 });
