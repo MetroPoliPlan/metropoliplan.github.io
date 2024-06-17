@@ -6,7 +6,6 @@ interface Props {
 }
 
 const { title } = Astro.props;
-
 ---
 
 <!doctype html>
@@ -35,13 +34,14 @@ const { title } = Astro.props;
 <style is:global>
     :root {
         --accent: 22, 29, 92;
+        --accent-bg: #f4f4ff;
+        --accent-medium: 119, 127, 198;
         --accent-light: 211, 211, 255;
         --accent-dark: 22, 29, 92;
         --accent-gradient: linear-gradient(
             45deg,
             rgb(var(--accent)),
-            rgb(var(--accent-light)) 30%,
-            white 60%
+            rgb(var(--accent-medium))
         );
     }
     * {
@@ -58,9 +58,9 @@ const { title } = Astro.props;
         content: ' | ';
     }
     html {
+        height: 100%;
         font-family: system-ui, sans-serif;
-        background: #f4f4ff;
-        background-size: 224px;
+        background: linear-gradient(45deg, var(--accent-bg), #d4d4ee);
     }
     code {
         font-family:
