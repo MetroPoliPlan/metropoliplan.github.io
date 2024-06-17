@@ -1,11 +1,13 @@
 ---
 import { getRelativeLocaleUrl } from 'astro:i18n';
+import { initI18n } from '../i18n';
 
 interface Props {
     title: string;
 }
 
 const { title } = Astro.props;
+const t = initI18n(Astro.currentLocale!);
 ---
 
 <!doctype html>
@@ -20,9 +22,9 @@ const { title } = Astro.props;
     <body>
         <slot />
         <footer>
-            <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'privacy')}
-                >Privacy Policy</a
-            >
+            <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'privacy')}>
+                {t('privacyPolicy')}
+            </a>
             <ul>
                 <li class="lang"><a href="/">Deutsch</a></li>
                 <li class="lang"><a href="/es">Español</a></li>
