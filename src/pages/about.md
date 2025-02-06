@@ -15,7 +15,7 @@ Die Zielgruppe von Metropoliplan sind speziell Organisationsteams, die große Pr
 
 ![Dashboard](/dashboard.png)
 
-User Dashboard das sowohl Neuigkeiten als auch aktuelle Bewerbungen und Zuteilungen anzeigt. 
+User Dashboard, das sowohl Neuigkeiten als auch aktuelle Bewerbungen und Zuteilungen anzeigt. 
 
 ![Calendar](/weekplan.png)
 
@@ -34,71 +34,57 @@ Ansicht auf den Planungskalender für Koordinatoren.
   * Spanisch
   * Russisch
   * (weitere Sprachen auf Anfrage)
-* Mehrmandantenfähig (d.h. wenn Ihr Verkündiger habt die in mehreren Projekten tätig sind, können sie die gleichen Login Daten verwenden)
 * kostenfrei (aber durch eure freiwilligen Spenden unterstützt)
 * optimiert für große und sehr große Projekte (50-5000 User)
-* Datenschutzkonform (DSGVO)
-  * berücksichtigt die aktuellen Anforderungen
-  * Speichert nur für den Prozess notwendige Daten
-  * Daten werden verschlüsselt übertragen
-  * Backups werden verschlüsselt extern gelagert
-  * Personenbezogene Daten können gelöscht werden
-  * Benutzer muss Nutzungsbedingungen aktiv zustimmen
-  * Datenschutzerklärung jederzeit einsehbar
-* eine sichere Platform
-  * umfangreiche Schutzmechanismen verhindern Zugriff von unauthorisierten Personen.
-  * wird in einem deutschen Rechenzentrum betrieben
-* ist international, professionell und vertrauenswürdig
-  * das Team besteht aus mehreren professionellen Software Entwicklern und IT-Systemintegratoren aus mehreren Ländern (Deutschland, Argentinien, Malta) die gleichzeitig Diener in Ihren Versammlungen sind.
-  * verfügt über Datenschützer und einem Datenschutz-Auditor
+* DSGVO-konform
+  * Betrieb in einem [ISO/IEC 27001 zertifizierten](https://docs.hetzner.com/de/general/others/certificates/) Rechenzentrum
+  * IT-Sicherheitskonzept auf Basis des [BSI IT-Grundschutz](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/it-grundschutz_node.html)
+  * Datenschutz- und IT-Sicherheitskonzept kann bei Bedarf eingesehen werden
 * ein jahrelang erprobtes und weiterentwickeltes System (seit 2015)
-  * und gleichzeitig ein System das State-of-the-Art Technolgien verwendet
-
+  * und gleichzeitig ein System, das State-of-the-Art-Technologien verwendet
 
 ### Highlights - Metropoliplan bietet:  
 * eine zentrale Planungsübersicht für Routen und Schichten
-  * einfach zu bedienen (wie ein Outlook Kalender)
-  * Unterstützung mehrere Routen während einer Schicht
-  * für Tablets optimierte Zuweisungsfunktion (Prinzip so wenig Klicks wie nötig)
-  * Differenzierte Festlegung von Schichtleitern
-  * Umfangreiche Warnregeln für Zuweisungskonflikte
+  * Unterstützung mehrerer Routen während einer Schicht
+  * differenzierte Festlegung von Schichtleitern
+  * umfangreiche Warnregeln für Zuweisungskonflikte
   * Schichten in unterschiedlichen Sprachen
-  * Zuteilungsbeschränkung für bestimmte Schichten
-  * Berücksichtigung des Wissensstands der Teilnehmer
+  * Zuteilungsbeschränkung für bestimmte Routen
+  * Berücksichtigung von Neulingen
 * für Verkündiger viele Annehmlichkeiten
-  * Automatische Bewerbungen
-  * Automatische Benachrichtigungen
-  * der persönlicher Smartphone Kalender wird automatisch upgedated (keine iCAL Dateien oder manuelle Einträge nötig)
+  * automatische Bewerbungen
+  * automatische Benachrichtigungen
+  * der persönliche Smartphone-Kalender wird automatisch upgedatet (keine iCAL-Dateien oder manuellen Einträge nötig)
   * Teamleiter direkt anrufbar
-  * zentrales Dashboard mit allen relevanten Funktionen auf einem Blick
-  * automatische Berücksichtigung von Bewerbungen der Dienst bzw. Ehepartner
-* eine integrierte zentrale Informationsplatform  
-   * Nachrichten System inkl. Anzeige über Lesestatus
-   * Dateiablage (z.B. für Projekt Dokumente)
-   * Zentrale Schulungsvideos
+  * zentrales Dashboard mit allen relevanten Funktionen auf einen Blick
+  * automatische Berücksichtigung von Bewerbungen der Dienst- bzw. Ehepartner
+* eine integrierte zentrale Informationsplattform  
+   * Nachrichtensystem inkl. Anzeige über Lesestatus
+   * Dateiablage (z.B. für Projektdokumente)
+   * zentrale Schulungsvideos
 * eine rollenbasierte Benutzerverwaltung
-   * mit diversen Export Möglichkeiten (vCard, Excel)
-* eine automatische Planungsfunktion
+   * mit diversen Exportmöglichkeiten (vCard, Excel)
+* eine intelligente automatisierte Planungsfunktion
 * ein Bewerbungssystem mit Automatismen  
-   * Verfügbarkeitskalender löst automatische Bewerbungen aus (Hamburger Modell) und berücksichtigt Abwesenheiten
+   * Verfügbarkeitskalender löst automatische Bewerbungen aus und berücksichtigt Abwesenheiten
    * Verkündiger können bevorzugte Routen mitteilen
 * zahlreiche Funktionen für Teamleiter
-   * optimierte Ansicht des Teams und Kontaktmöglichkeiten für Teamleiter in der vorhergehenden und Nachfolgenden Schicht
-   * Teilnehmer sind aus der Ansicht direkt anrufbar (nutzt integriert Smartphone)
+   * optimierte Ansicht des Teams und Kontaktmöglichkeiten für Teamleiter in der vorhergehenden und nachfolgenden Schicht
+   * Teilnehmer sind aus der Ansicht direkt anrufbar (nutzt integriertes Smartphone)
 * Sonderfunktion für Zeugnisgeben an Autobahnen
-   * pro Bewerbung kann erfasst werden ob ein Fahrzeug zur Verfügung steht
-* Umfangreiches Reporting System
+   * pro Bewerbung kann erfasst werden, ob ein Fahrzeug zur Verfügung steht
+* umfangreiches Reporting-System
    * Report für das Koordinationsteam (realtime)
-   * Geschlossener Report für das Zweigbüro (ab. 10 Tag Folgemonat)
-   * Kreisaufseher Reports
+   * geschlossener Report für das Zweigbüro (ab 10. Tag Folgemonat)
+   * Kreisaufseher-Reports
 
-die Liste zeigt nur die wesentlichen Highlights. 
+Die Liste zeigt nur die wesentlichen Highlights. 
 Es gibt noch viele weitere nützliche Funktionen.
 
 ### Roadmap
-* Notfall Kommunikationssystem
-* Soft- & Hardwaregesteuerte Öffnung von Depots nur für Teilnehmer während ihres Schichttages
+* Notfall-Kommunikationssystem
+* Soft- & hardwaregesteuerte Öffnung von Depots
 * und noch viel mehr. Bleibt gespannt ;-)
-   
+
 ### Neugierig?
-* Schick uns eine eMail an team (AT) metropoliplan (DOT) org
+* Schick uns eine E-Mail an team (AT) metropoliplan (DOT) org
