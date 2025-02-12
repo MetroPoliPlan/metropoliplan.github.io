@@ -5,5 +5,6 @@
     "documentation": "Manual del Coordinador",
     "documentationDescription": "Aprende cómo planificar la PPAM usando Metropoliplan.",
     "status": "Página de estado",
-    "statusDescription": "¿Metropoliplan está caído en este momento? ¿Qué incidentes había recién?"
+    "statusDescription": "¿Metropoliplan está caído en este momento? ¿Qué incidentes había recién?",
+    "privacyPolicy": "Datenschutzerklärung"
 }
