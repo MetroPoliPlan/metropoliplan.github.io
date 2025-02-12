@@ -1,11 +1,13 @@
 ---
 import { getRelativeLocaleUrl } from 'astro:i18n';
+import { initI18n } from '../i18n';
 
 interface Props {
     title: string;
 }
 
 const { title } = Astro.props;
+const t = initI18n(Astro.currentLocale!);
 ---
 
 <!doctype html>
@@ -20,12 +22,13 @@ const { title } = Astro.props;
     <body>
         <slot />
         <footer>
-            <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'privacy')}
-                >Privacy Policy</a
-            >
+            <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'privacy')}>
+                {t('privacyPolicy')}
+            </a>
             <ul>
                 <li class="lang"><a href="/">Deutsch</a></li>
                 <li class="lang"><a href="/es">Español</a></li>
+                <li class="lang"><a href="/en">English</a></li>
             </ul>
             <p class="copyright">© The Metropoliplan Team 2017-2024</p>
         </footer>
@@ -58,7 +61,7 @@ const { title } = Astro.props;
         content: ' | ';
     }
     html {
-        height: 100%;
+        min-height: 100%;
         font-family: system-ui, sans-serif;
         background: linear-gradient(45deg, var(--accent-bg), #d4d4ee);
     }

@@ -2,7 +2,7 @@
 import Home from '../../components/Home.astro';
 
 export function getStaticPaths() {
-    return [{ params: { lang: 'es' } }];
+    return [{ params: { lang: 'es' } }, { params: { lang: 'en' } }];
 }
 
 const { lang } = Astro.params;

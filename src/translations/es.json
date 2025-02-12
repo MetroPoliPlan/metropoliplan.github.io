@@ -1,5 +1,7 @@
 {
     "description": "Un software para organizar la Predicación Pública en Áreas Metropolitanas",
+    "about": "Todo sobre Metropoliplan",
+    "aboutDescription": "Obtenga más información sobre el caso de uso y la rica funcionalidad.",
     "documentation": "Manual del Coordinador",
     "documentationDescription": "Aprende cómo planificar la PPAM usando Metropoliplan.",
     "status": "Página de estado",
