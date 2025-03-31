@@ -15,11 +15,11 @@ Metropoliplan's target groups are specifically organizational teams that have to
  
 ## User Interface
 
-/UserAndAdminDashboard.png
+![Dashboard](/dashboard.png)
 
 User Dashboard showing news and also recent applications and assignments.
 
-/PlannerCalender.png
+![Calendar](/weekplan.png)
 
 Admin view on planning calendar. Application calendar and planning calendar working in the same simple way as you would like use your Microsoft Outlook calender.
 
