@@ -6,5 +6,7 @@
     "documentationDescription": "Lerne, wie man mit Metropoliplan das öffentliche Zeugnisgeben in Ballungszentren planen kann.",
     "status": "Statusseite",
     "statusDescription": "Ist Metropoliplan gerade nicht verfügbar? Welche Zwischenfälle gab es kürzlich?",
-    "privacyPolicy": "Datenschutzerklärung"
+    "privacyPolicy": "Datenschutzerklärung",
+    "faq": "FAQ",
+    "faqDescription": "In unserem FAQ-Bereich findest du Antworten auf die am häufigsten gestellten Fragen zu unserer Software"
 }
