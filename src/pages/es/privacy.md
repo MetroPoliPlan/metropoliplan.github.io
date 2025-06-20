@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/Legal.astro
-title: Política de privacidad
+layout: '../../layouts/Legal.astro'
+title: 'Política de privacidad'
 ---
 
 # Política de privacidad
