@@ -6,5 +6,7 @@
     "documentationDescription": "Aprende cómo planificar la PPAM usando Metropoliplan.",
     "status": "Página de estado",
     "statusDescription": "¿Metropoliplan está caído en este momento? ¿Qué incidentes había recién?",
-    "privacyPolicy": "Datenschutzerklärung"
+    "privacyPolicy": "Datenschutzerklärung",
+    "faq": "FAQ",
+    "faqDescription": "En nuestra sección FAQ encontrará respuestas a las preguntas más frecuentes sobre nuestro software."
 }
