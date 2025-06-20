@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/Legal.astro
-title: Descripción general
+layout: '../../layouts/Legal.astro'
+title: 'Descripción general'
 ---
 
 # Qué es Metropoliplan (MEP)
