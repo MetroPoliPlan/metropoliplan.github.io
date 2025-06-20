@@ -41,6 +41,13 @@ const t = initI18n(Astro.props.locale);
             >
                 <span slot="icon">🚥</span>
             </Card>
+             <Card
+                href={getRelativeLocaleUrl(Astro.props.locale, 'faq')}
+                title={t('faq')}
+                body={t('faqDescription')}
+            >
+                <span slot="icon">❓</span>
+            </Card>
         </ul>
     </main>
 </Layout>

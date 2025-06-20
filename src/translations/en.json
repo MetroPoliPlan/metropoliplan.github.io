@@ -5,5 +5,7 @@
     "documentation": "Coordinators handbook",
     "documentationDescription": "Learn how to use Metropoliplan for public witnessing in metropolitan areas",
     "status": "Status Page",
-    "statusDescription": "Is Metropoliplan currently available? Were there issues recently?"
+    "statusDescription": "Is Metropoliplan currently available? Were there issues recently?",
+    "faq": "FAQ",
+    "faqDescription": "In our FAQ section you will find answers to the most frequently asked questions about our software."
 }
