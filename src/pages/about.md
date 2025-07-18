@@ -87,4 +87,4 @@ Es gibt noch viele weitere nützliche Funktionen.
 * und noch viel mehr. Bleibt gespannt ;-)
 
 ### Neugierig?
-* Schick uns eine E-Mail an team (AT) metropoliplan (DOT) org
+* Schick uns eine E-Mail an team@metropoliplan.org
