@@ -21,11 +21,11 @@ const t = initI18n(Astro.props.locale);
         <p class="description">{t('description')}</p>
         <ul role="list" class="link-card-grid">
             <Card
-                href={getRelativeLocaleUrl(Astro.props.locale, 'about')}
+                href={getRelativeLocaleUrl(Astro.props.locale, 'faq')}
                 title={t('about')}
                 body={t('aboutDescription')}
             >
-                <span slot="icon">🎛️</span>
+                <span slot="icon">🗺️</span>
             </Card>
             <Card
                 href={`/index-${Astro.props.locale}.html`}
@@ -40,13 +40,6 @@ const t = initI18n(Astro.props.locale);
                 body={t('statusDescription')}
             >
                 <span slot="icon">🚥</span>
-            </Card>
-             <Card
-                href={getRelativeLocaleUrl(Astro.props.locale, 'faq')}
-                title={t('faq')}
-                body={t('faqDescription')}
-            >
-                <span slot="icon">❓</span>
             </Card>
         </ul>
     </main>
