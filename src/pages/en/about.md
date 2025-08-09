@@ -31,11 +31,11 @@ Admin view on planning calendar. Application calendar and planning calendar work
 (i.e. You don't have to operate the systems by yourself)
 * Can be used with any modern browser (no apps required)
 * a multilingual solution:
-  *English
-  *German
-  *French
-  *Spanish
-  *Russian
+  * English
+  * German
+  * French
+  * Spanish
+  * Russian
   * (other languages on request)
 * Multi-tenant capable (i.e. if you have publishers who are involved in multiple projects, they can use the same login credentials)
 * free of charge (although we would be happy to receive a small voluntary financial support for the operation)
