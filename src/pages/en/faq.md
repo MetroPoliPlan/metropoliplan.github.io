@@ -2,8 +2,7 @@
 layout: ../../layouts/Legal.astro
 title: Privacy-Policy
 ---
-
-# Is Metropoliplan suitable for my MPW?
+# Is Metropoliplan suitable for my <abbr title="Metropoliplan Public Witnessing">MPW</abbr>?
 
 ## What does your software do?
 MEP has been specially developed for public witnessing in urban areas. It enables the coordination of a large number of proclaimers across multiple assemblies.
