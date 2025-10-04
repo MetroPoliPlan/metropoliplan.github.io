@@ -76,5 +76,5 @@ Wir haben eine Support-Adresse an die man sich bei Problemen und Anregungen wend
 
 ## Wie viele Nutzer und Projekte hat eure Software?
 
-Es gibt 28 Mandanten, die über Deutschland, Luxemburg, die Schweiz und Argentinien verteilt sind. MEP ist aktuell von 11.400 Verkündigern in Gebrauch (Stand Oktober 2024).
+Es gibt 28 Mandanten, die über Deutschland, Luxemburg, die Schweiz und Argentinien verteilt sind. MEP ist aktuell von 11.400 Verkündigern in Gebrauch (Stand Juli 2025).
 
