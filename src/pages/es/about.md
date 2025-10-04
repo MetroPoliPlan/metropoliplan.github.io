@@ -90,4 +90,4 @@ Es gibt noch viele weitere nützliche Funktionen.
 
 ### Neugierig?
 
-- Schick uns eine E-Mail an team (AT) metropoliplan (DOT) org
+- Schick uns eine E-Mail an team@metropoliplan.org
