@@ -61,5 +61,5 @@ Wir sind nicht perfekt, aber wir nehmen dieses Projekt sehr ernst und tun unser 
 Wir haben eine Support-Adresse an die man sich bei Problemen und Anregungen wenden kann. Dringende Probleme und Notfälle werden sofort bearbeitet. Nicht so dringende Anfragen werden danach abgearbeitet. Alle Brüder und Schwestern im Team machen das neben ihren familiären und theokratischen Verpflichtungen in ihrer Freizeit…und wie ihr ja wisst, ist diese manchmal äußerst knapp bemessen.
 
 ## Wie viele Nutzer und Projekte hat eure Software?
-Es gibt 28 Mandanten, die über Deutschland, Luxemburg, die Schweiz und Argentinien verteilt sind. MEP ist aktuell von 11.400 Verkündigern in Gebrauch (Stand Oktober 2024).
+Es gibt 28 Mandanten, die über Deutschland, Luxemburg, die Schweiz und Argentinien verteilt sind. MEP ist aktuell von 11.400 Verkündigern in Gebrauch (Stand Juli 2025).
 

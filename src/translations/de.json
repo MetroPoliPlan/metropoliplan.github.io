@@ -1,7 +1,7 @@
 {
     "description": "Eine Software für das Organisieren von öffentlichem Zeugnisgeben in Ballungszentren",
-    "about": "Feature Übersicht",
-    "aboutDescription": "Lerne mehr über den Anwendung und die vielfältigen Funktionen.",
+    "overview": "Überblick",
+    "overviewDescription": "Hier findest du Informationen und Antworten auf die am häufigsten gestellten Fragen zu unserer Software.",
     "documentation": "Koordinatorenhandbuch",
     "documentationDescription": "Lerne, wie man mit Metropoliplan das öffentliche Zeugnisgeben in Ballungszentren planen kann.",
     "status": "Statusseite",
