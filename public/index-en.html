@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.20">
+<title>Metropoliplan</title>
+<style>
+/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+
+@import url(https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css); /* Default asciidoc style framework - important */
+
+/* CUSTOMISATIONS */
+/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
+:root {
+    --maincolor: #ffffff;
+    --primarycolor: #21275c;
+    --secondarycolor: #777fc6;
+    --tertiarycolor: #cccccc;
+    --sidebarbackground: hsl(234deg, 30%, 91%);
+    --linkcolor: #21275c;
+    --linkcoloralternate: #b71c1c;
+    --white: #ffffff;
+    --black: hsl(234deg, 23%, 21%);
+}
+
+/* Text styles */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+        segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+        arial, sans-serif;
+    background-color: var(--maincolor);
+    color: var(--black);
+}
+
+h1 {
+    color: var(--primarycolor) !important;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+        segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+        arial, sans-serif;
+    font-weight: 600;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primarycolor) !important;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+        segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+        arial, sans-serif;
+    font-weight: 600;
+}
+.title {
+    color: var(--black) !important;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+        segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+        arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+p {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+        segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+        arial, sans-serif !important;
+}
+#toc.toc2 a {
+    color: var(--linkcolor);
+}
+blockquote {
+    color: var(--secondarycolor) !important;
+}
+.quoteblock {
+    color: var(--black);
+}
+.quoteblock blockquote:before {
+    color: var(--black);
+}
+code {
+    color: var(--white);
+    background-color: var(--secondarycolor) !important;
+}
+mark {
+    background-color: var(--tertiarycolor);
+} /* Text highlighting color */
+
+/* Table styles */
+th {
+    background-color: var(--maincolor);
+    color: var(--black) !important;
+}
+td {
+    background-color: var(--maincolor);
+    color: var(--black) !important;
+}
+
+#toc.toc2 {
+    background-color: var(--sidebarbackground);
+    padding: 1.25em 1em;
+}
+#toctitle {
+    color: var(--black);
+    font-weight: 600;
+    margin-top: 0;
+}
+#header, #content, #footer {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Responsiveness fixes */
+video {
+    max-width: 100%;
+}
+
+#footer {
+  background-color: var(--sidebarbackground);
+}
+#footer-text {
+  color: var(--primarycolor);
+}
+
+@media all and (max-width: 600px) {
+    table {
+        width: 55vw !important;
+        font-size: 3vw;
+    }
+}
+
+</style>
+</head>
+<body class="article toc2 toc-left">
+<div id="header">
+<h1>Metropoliplan</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of contents</div>
+<ul class="sectlevel1">
+<li><a href="#_introduction">1. Introduction</a>
+<ul class="sectlevel2">
+<li><a href="#_for_whom_is_mep_suitable_for">1.1. For whom is MEP suitable for?</a></li>
+<li><a href="#_for_whom_is_it_not">1.2. For whom is it not?</a></li>
+<li><a href="#_what_can_mep_do">1.3. What can MEP do?</a></li>
+</ul>
+</li>
+<li><a href="#_core_process">2. Core Process</a>
+<ul class="sectlevel2">
+<li><a href="#_approving_a_week">2.1. Approving a Week</a></li>
+<li><a href="#_application_for_a_shift">2.2. Application for a shift</a></li>
+<li><a href="#_definition_of_the_terms_shift_route_and_assignment">2.3. Definition of the Terms Shift, Route, and Assignment</a></li>
+<li><a href="#_planning_and_publication_of_assignments">2.4. Planning and Publication of Assignments</a></li>
+<li><a href="#_conducting_of_assignments_and_reporting">2.5. Conducting of Assignments and Reporting</a></li>
+</ul>
+</li>
+<li><a href="#_detailed_step_by_step_instructions_for_the_planner">3. Detailed step-by-step instructions for the planner</a>
+<ul class="sectlevel2">
+<li><a href="#_release_of_shifts_for_application">3.1. Release of shifts for application</a></li>
+<li><a href="#_application_of_participants">3.2. Application of participants</a></li>
+<li><a href="#_weekly_planning">3.3. Weekly planning</a></li>
+<li><a href="#_participants_side">3.4. Participant&#8217;s side</a></li>
+</ul>
+</li>
+<li><a href="#_basic_data">4. Basic Data</a>
+<ul class="sectlevel2">
+<li><a href="#_circuits_congregations_and_publishers">4.1. Circuits, Congregations, and Publishers</a>
+<ul class="sectlevel3">
+<li><a href="#_circuits">4.1.1. Circuits</a></li>
+<li><a href="#_congregation">4.1.2. Congregation</a></li>
+<li><a href="#_publisher">4.1.3. Publisher</a></li>
+</ul>
+</li>
+<li><a href="#_depots">4.2. Depots</a></li>
+<li><a href="#_routes">4.3. Routes</a></li>
+</ul>
+</li>
+<li><a href="#_reports">5. Reports</a>
+<ul class="sectlevel2">
+<li><a href="#_report_for_the_circuit_overseer">5.1. Report for the Circuit Overseer</a></li>
+<li><a href="#_branch_office_report">5.2. Branch Office Report</a></li>
+<li><a href="#_report_for_the_organization_team">5.3. Report for the Organization Team</a></li>
+</ul>
+</li>
+<li><a href="#_settings">6. Settings</a>
+<ul class="sectlevel2">
+<li><a href="#_planning_settings">6.1. Planning Settings</a>
+<ul class="sectlevel3">
+<li><a href="#_functions">6.1.1. Functions</a>
+<ul class="sectlevel4">
+<li><a href="#_activate_vehicle_workflow_for_applications">Activate vehicle workflow for applications</a></li>
+<li><a href="#_share_team_information_with_all_participants_of_the_assignment">Share team information with all participants of the assignment</a></li>
+<li><a href="#_share_team_information_with_all_participants_of_the_previous_and_subsequent_assignment">Share team information with all participants of the previous and subsequent assignment</a></li>
+<li><a href="#_notify_subsequent_team_leaders_about_canceled_assignments">Notify subsequent team leaders about canceled assignments</a></li>
+<li><a href="#_allow_team_leaders_to_cancel_assignments">Allow team leaders to cancel assignments</a></li>
+<li><a href="#_allow_participants_to_specify_route_preferences">Allow participants to specify route preferences</a></li>
+</ul>
+</li>
+<li><a href="#_assignment_ratio">6.1.2. Assignment ratio</a>
+<ul class="sectlevel4">
+<li><a href="#_use_the_actual_applications_during_the_period">Use the actual applications during the period</a></li>
+<li><a href="#_use_the_recommended_number_of_assignments_for_the_period">Use the recommended number of assignments for the period</a></li>
+</ul>
+</li>
+<li><a href="#assignment_issues_severities">6.1.3. Weighting of assignment notes</a></li>
+</ul>
+</li>
+<li><a href="#_automatic_planning">6.2. Automatic Planning</a>
+<ul class="sectlevel3">
+<li><a href="#_scheduled_automatic_planning">6.2.1. Scheduled Automatic Planning</a></li>
+</ul>
+</li>
+<li><a href="#_news_settings">6.3. News Settings</a>
+<ul class="sectlevel3">
+<li><a href="#_delete_expired_news_by_day">6.3.1. Delete Expired News by Day</a></li>
+</ul>
+</li>
+<li><a href="#_reporting_settings">6.4. Reporting Settings</a>
+<ul class="sectlevel3">
+<li><a href="#_publishers_can_create_experiences">6.4.1. Publishers can create experiences</a></li>
+</ul>
+</li>
+<li><a href="#_environment_settings">6.5. Environment Settings</a>
+<ul class="sectlevel3">
+<li><a href="#_host_url_for_links_in_emails_sent_by_the_system">6.5.1. Host URL for links in emails sent by the system</a></li>
+<li><a href="#_client_name">6.5.2. Client name</a></li>
+<li><a href="#_number_and_date_display_and_notification_language">6.5.3. Number and date display and notification language</a></li>
+</ul>
+</li>
+<li><a href="#_email_settings">6.6. Email Settings</a>
+<ul class="sectlevel3">
+<li><a href="#_send_emails">6.6.1. Send Emails</a></li>
+<li><a href="#_sender_name">6.6.2. Sender Name</a></li>
+<li><a href="#_sender_email_address">6.6.3. Sender Email Address</a></li>
+<li><a href="#_default_email_footer">6.6.4. Default Email Footer</a></li>
+<li><a href="#_additional_bcc_recipient">6.6.5. Additional BCC Recipient</a></li>
+<li><a href="#_fixed_recipient">6.6.6. Fixed Recipient</a></li>
+</ul>
+</li>
+<li><a href="#_master_data">6.7. Master Data</a>
+<ul class="sectlevel3">
+<li><a href="#_default_country_code">6.7.1. Default Country Code</a></li>
+<li><a href="#_automatic_deactivation_of_publishers">6.7.2. Automatic Deactivation of Publishers</a></li>
+<li><a href="#_inform_publishers_of_inactivity_after_months">6.7.3. Inform publishers of inactivity after months</a></li>
+<li><a href="#_publishers_become_inactive_after_months">6.7.4. Publishers become inactive after months</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_news">7. News</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_introduction">1. Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This document addresses the coordinators of public witnessing in metropolitan areas and their helpers. Jehovah is a God of peace and order and we all strive to uphold this principle wholeheartedly. To ensure this is as stress-free as possible and without sleepless nights, we would like to provide you with a technical tool. It should help you to smoothly organize public witnessing in your metropolitan area. It is our understanding that not every coordinator of public witnessing in metropolitan areas automatically has a computer science education. That&#8217;s why we&#8217;re trying to make this program as easy to understand and as intuitive to use as possible. You can find out how it works and what it can do with this coordinator&#8217;s manual. Few people like to read manuals, so we&#8217;ve resisted the temptation to dwell on technical details or use complicated IT terms in every paragraph. However, anyone interested can receive all the information from the product owner. For simplicity, the name of the program, MetropoliPlan, is abbreviated to MEP in the following text.</p>
+</div>
+<div class="sect2">
+<h3 id="_for_whom_is_mep_suitable_for">1.1. For whom is MEP suitable for?</h3>
+<div class="paragraph">
+<p>MEP was developed specifically for public witnessing in metropolitan areas.  It enables the coordination of large numbers of publishers across multiple congregations. It doesn&#8217;t matter whether 100, 1000 or even more publishers are participating. It&#8217;s also suitable for organizing projects in tourist areas, such as the coastal carts or the long-distance truck ministry.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_for_whom_is_it_not">1.2. For whom is it not?</h3>
+<div class="paragraph">
+<p>For allocating carts at congregation level, other solutions, such as Google Sheets or Excel Online, are more suitable.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_what_can_mep_do">1.3. What can MEP do?</h3>
+<div class="paragraph">
+<p>The coordinator and his assistants, as administrators, can assign any number of participants to assignments. It is ensured that one participant is always assigned the team leadership. The allocation of an assignment depends primarily on the location, time, and availability of the participants. Additional information such as the publisher&#8217;s ministry privileges or special requirements for the respective area can also be gathered. In some areas, for example, a brother must always accompany an assignment for safety reasons, or a car is mandatory.</p>
+</div>
+<div class="paragraph">
+<p>Each publisher receives their own account with which they can log in and out independently. On their personal dashboard, they will find all important information about their assignments. They can apply for assignments themselves, withdraw applications, or make themselves available as a substitute. If desired, assigned assignments are automatically transferred to their personal calendar; otherwise, they will only be notified via email.</p>
+</div>
+<div class="paragraph">
+<p>As an additional feature, you can have automatic scheduling done most of the work. This is an optimization algorithm that creates a complete proposal for assignments based on your local criteria.</p>
+</div>
+<div class="paragraph">
+<p>MEP ensures that team leaders prepare a short report on each completed assignment. These data will help you to evaluate the effectiveness of a particular route, plan literature needs, and prepare monthly reports for the branch office.</p>
+</div>
+<div class="paragraph">
+<p>MEP also facilitates to communicate with your participants. News can be displayed on the dashboard, documents can be shared with everyone, and participants can report positive or negative experiences to you.</p>
+</div>
+<div class="paragraph">
+<p>This brief overview is intended to help you decide whether MEP is the right tool for your area.
+Detailed explanations and step-by-step instructions for each process can be found below.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_core_process">2. Core Process</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To use MEP optimally, it is important to first understand the core process from start to finish. This sounds tedious, but unfortunately, there&#8217;s no getting around it. So make yourself a coffee or tea, accept the challenge, and you&#8217;ll see, in the end, it&#8217;s not that complicated at all.</p>
+</div>
+<div class="sect2">
+<h3 id="_approving_a_week">2.1. Approving a Week</h3>
+<div class="paragraph">
+<p>It all begins with the planner (the coordinator or one of their assistants) dedicating a period of time (e.g., a week) in the future for planning. To do this, he specifies in the planning calendar when cart shifts should take place (e.g., Monday 8:00-10:00 a.m.; Tuesday 9:00-11:00 a.m., etc.). He then approves these shifts for planning, meaning participants are notified and can apply for individual shifts.
+How far in advance he wants to do this is up to the planner. This could be for the next week or the next month. Just like the decision whether to plan one week or, for example, two in a row. Once that&#8217;s done, he can sit back and relax and make the most of his precious free time with his Bible reading program, because now it&#8217;s up to the participants to apply for the individual shifts.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_application_for_a_shift">2.2. Application for a shift</h3>
+<div class="paragraph">
+<p>The participating publisher receives an email and a notification on their personal MEP dashboard that a new week has been released for applications.  After careful consideration, he can now apply for the shifts he would like to participate in.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_definition_of_the_terms_shift_route_and_assignment">2.3. Definition of the Terms Shift, Route, and Assignment</h3>
+<div class="paragraph">
+<p>The heading alone sounds boring, and to be honest, the text below doesn&#8217;t quite make up for it. Nevertheless, we sincerely ask you not to simply skim through this point. Experience has shown that this is precisely where many misunderstandings arise.
+The term "shift" refers only to the time period during which the cart service is to take place, e.g., Monday 8:00-10:00 a.m..
+The "route" indicates where it should take place, e.g. route train station.
+The assignment arises from these two components. In some areas, language is added as a third component. A simple example might look like this:</p>
+</div>
+<div class="paragraph">
+<p>The system contains two routes: the train station and the market square.</p>
+</div>
+<div class="paragraph">
+<p>Brother Smith now applies for the Monday morning shift from 8:00 a.m. to 10:00 a.m..</p>
+</div>
+<div class="paragraph">
+<p>Brother Smith can now be assigned either to the "Market Square from 8:00 a.m. to 10:00 a.m." or to the "Train Station from 8:00 a.m. to 10:00 a.m."</p>
+</div>
+<div class="paragraph">
+<p>We call the combination of shift and route "assignment."</p>
+</div>
+<div class="paragraph">
+<p>As already mentioned, this could be expanded to include language, if necessary. Then his assignment would look like this: Monday morning from 8:00 a.m. to 10:00 a.m. at the train station in Spanish.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_planning_and_publication_of_assignments">2.4. Planning and Publication of Assignments</h3>
+<div class="paragraph">
+<p>Once the planner has received all applications, he can begin assigning the individual publishers to their assignments. He sees who has applied for each shift. From this list, he selects the required number of brothers and sisters to form the teams. In addition to the name, the planner finds further information about the publisher, such as gender, service privileges, and whether they can take on the role as a team leader. This is very helpful to know, because if no team leader is available, the assignment cannot take place.
+Once the planner has assigned assignments for each shift, he completes the process by publishing the schedule. All publishers now receive a notification on their personal MEP dashboard, as well as by email, and if they have configured it accordingly, their assignment will appear in their personal calendar.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_conducting_of_assignments_and_reporting">2.5. Conducting of Assignments and Reporting</h3>
+<div class="paragraph">
+<p>After everyone has arrived on time and had a great service, the core process is almost complete. Now all that&#8217;s missing is the report. The team leader writes it after each assignment. In it, he mentions the literature distributed, how many carts were used, the duration of the assignment, and whether all participants were present.</p>
+</div>
+<div class="paragraph">
+<p>Completely independent of the team leader&#8217;s assignment report, publishers have the opportunity to report positive or negative experiences to the coordination team at any time. If, for example, problems with shopkeepers or government officials repeatedly occur on a particular route, the coordinator can take the necessary steps. It goes without saying that positive experiences are always preferred.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_detailed_step_by_step_instructions_for_the_planner">3. Detailed step-by-step instructions for the planner</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Having now decided to use MEP and provided all the basic data, you can finally start planning. In this chapter, you&#8217;ll find detailed instructions on what to do and in what order.</p>
+</div>
+<div class="sect2">
+<h3 id="_release_of_shifts_for_application">3.1. Release of shifts for application</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+For simplicity, we&#8217;ll use a week as the time period below.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>You&#8217;ll initially have a completely free week. Now you can specify when shifts should take place. This only concerns the time period, i.e., which day, what time, and how long each shift should take place.   Each shift must be created individually. To do this, go to the calendar, click on the starting time, and drag it down to the desired duration, e.g., Monday 10:00 a.m. - 13:00 a.m.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/gif;base64," alt="release week 01">
+</div>
+</div>
+<div class="paragraph">
+<p>The successfully created shift is now shaded in orange. In this state, it&#8217;s in draft mode, meaning no one can see it except the planner. The entire week is planned in this way until it looks something like this:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="release week 02">
+</div>
+</div>
+<div class="paragraph">
+<p>Once you&#8217;re satisfied with the plan, you release the week for application. To do this, click on the context menu in the top right corner of the blue bar (the three dots on top of each other (⋮)). The field "Publish the week" appears.</p>
+</div>
+<div class="paragraph">
+<p>As soon as you click this, all publishers will be notified by email that a new week is available. The shaded area will now disappear, and the shifts will be uniformly colored orange. This means they are visible to all participants, and they can apply for them.</p>
+</div>
+<div class="paragraph">
+<p>You&#8217;ll see: after doing it a few times, it is really quick and effortless.</p>
+</div>
+<div class="paragraph">
+<p>Usually, the best comes last, and that should also be the case here. Because if the shifts always take place at the same time (and they usually do), it&#8217;s not necessary to redo all this work every week. You can use the previous week as a template with one click and copy it into the current week.</p>
+</div>
+<div class="paragraph">
+<p>To do this, however, the previous week must have been created. Now that you have the new white week in front of you, go directly to the context menu in the top right and the "Import Shifts" field will appear.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/gif;base64," alt="release week 03">
+</div>
+</div>
+<div class="paragraph">
+<p>Now, the whole week is planned. You can publish the plan directly or, if necessary, make manual changes, e.g. due to a holiday, or a demonstration, etc..</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_application_of_participants">3.2. Application of participants</h3>
+<div class="paragraph">
+<p>Now let&#8217;s briefly switch perspectives to see what&#8217;s happening on the publisher&#8217;s side. He was notified by email that a new week has been released for application.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="application 01">
+</div>
+</div>
+<div class="paragraph">
+<p>In the application calendar, the publisher finds the available shifts, which are still colored in gray at this point. To apply, the publisher clicks on "Apply" in the respective shift. The color now changes from gray to shaded green.</p>
+</div>
+<div class="paragraph">
+<p>His work is now done and all he needs to do is waiting patiently for the planner to assign him to the assignments.</p>
+</div>
+<div class="paragraph">
+<p>If he wants to withdraw his application because he made a mistake, or simply because the cat walked across the keyboard, he can just click on the "Withdraw application" field in the shift in question.</p>
+</div>
+<div class="paragraph">
+<p>The round prohibition sign on some shifts means that they are in the past or have been closed by the planner. No action is possible for these shifts.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_weekly_planning">3.3. Weekly planning</h3>
+<div class="paragraph">
+<p>In the meantime, all applications have been received by the planner, and he can now begin scheduling and planning assignments. This process takes a bit of time and requires some concentration. It&#8217;s best to find a quiet spot, have some snacks ready and, if desired, playing some motivating music. Original songs have proven effective here. Songs like "Let&#8217;s Take the Leap", "Do Not Be Afraid", or "Take Your Time, Choose Wisely" are recommended for the beginning. To maintain motivation and a positive mood, we recommend "We Won&#8217;t Stop Now" and "Be Courageous and Strong." And for the final push, songs like "Just Around the Corner" and "Imagine the Time" are recommended. The full playlist is, of course, available at jw.org.</p>
+</div>
+<div class="paragraph">
+<p>In the weekly planner, the planner can see at a glance how many publishers have applied for a shift, as well as the number of planned assignments (which, logically, is set to 0 at the beginning, as this work still lies ahead of him now).</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="plan week 01">
+</div>
+</div>
+<div class="paragraph">
+<p>Each shift must be planned individually. He clicks on the shift in question (e.g., Monday 8:00 - 10:00), and a detail section for that shift opens on the right. There he will find the application status, the assignment status, the number of applications, the routes on which assignments are possible and the option to cancel this shift.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="plan week 02">
+</div>
+</div>
+<div class="paragraph">
+<p>First, he selects the route where the assignment is to take place.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+The routes must be created beforehand. In the "Basic Data" chapter, you can find out how to create routes in the system.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>As soon as he clicks on it, a window appears with the information that the assignment is still deactivated. To get started, he has to activate it and the assignment view will appear.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="plan week 03">
+</div>
+</div>
+<div class="paragraph">
+<p>On the left side, he finds the applicants grouped according to the three route preferences:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>preferred</p>
+</li>
+<li>
+<p>possible, but not preferred</p>
+</li>
+<li>
+<p>not possible</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+The publisher sets the route preferences in his profile.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>This feature is optional and can be turned off if not needed.</p>
+</div>
+<div class="paragraph">
+<p>To create a plan that is both efficient and fair, the planner receives the following information about each publisher:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>which congregation he belongs to</p>
+</li>
+<li>
+<p>how often he was assigned, but also how often he applied (because if someone applies frequently, he obviously has a strong desire to participate – and such enthusiasm for the ministry can only be supported)</p>
+</li>
+<li>
+<p>whether he is a beginner or a mentor</p>
+</li>
+<li>
+<p>whether he is a team leader or VIP</p>
+</li>
+<li>
+<p>Whether the publisher has already seen the assignment
+(This is relevant if you make retrospective changes to an already published plan.)</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+Definitions and explanations of what mentor, team leader, VIP, etc. mean can be found in the "Basic Data" chapter.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>The publisher is assigned to the assignment by clicking on the gray arrow at the end of the line. Now he is moved to the right side and is part of the team for this assignment. To remove him, click on the "x" on the far right and he will move back to the left side. This does not mean that his application will be deleted. If you want to move all publishers back to the left side at once, simply click the "Unassign All" button. You can find this button in the top right corner.</p>
+</div>
+<div class="paragraph">
+<p>In this way, a team can now be put together for this shift. It is important that a team leader (Brother or Sister) is always present. If this is not fulfilled, the assignment cannot take place. The team leader must be clicked again in the right column, after which the check mark turns dark blue.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="plan week 04">
+</div>
+</div>
+<div class="paragraph">
+<p>The "Issues" field at the top left shows whether all necessary planning requirements have been met. The impact ranges from simple information to warnings to errors that would prevent the plan from being published. The severity of the issues can be adjusted in the settings.</p>
+</div>
+<div class="paragraph">
+<p>The "Deactivate Assignment" button in the top right corner is there in case you realize during planning that this assignment will not take place. There are many reasons for this, perhaps there is no team leader available or you just remembered that there is a circuit assembly that day. Fortunately, no one will find out because you are still in planning mode, meaning the plan hasn&#8217;t been published yet and no one will be notified.</p>
+</div>
+<div class="paragraph">
+<p>However, once the outreach is scheduled and published (meaning all publishers have already received their assignments), you will find the red "Cancel Assignment" button at this location instead. If you click on it, all participants of this assignment on this one route will receive a notification via email of the cancellation.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+If you want to cancel the assignments on all routes in this shift, you can do so using the "Cancel shift" button. You can find this in the detail section of the weekly planning at the bottom right.
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="shift cancel button">
+</div>
+</div>
+<div class="paragraph">
+<p>Once the mission is fully planned and the team is complete, he returns to the weekly planning. As soon as the planner clicks on the "mark as planned" field, the shift changes to blue.
+Every single shift of the entire week is now planned according to this mode.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="plan week 05">
+</div>
+</div>
+<div class="paragraph">
+<p>If assignments are to take place on different routes in one shift, these must also be planned individually.</p>
+</div>
+<div class="paragraph">
+<p>Allocations can only be published once every shift is properly planned and marked blue. In the top right corner of the context menu you can find the field: "Release Week"</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="plan week 06">
+</div>
+</div>
+<div class="paragraph">
+<p>If a shift has been forgotten, an error message will now appear so that the necessary changes can be made.</p>
+</div>
+<div class="paragraph">
+<p>In cases where no assignment can be made for a shift, it must still be marked as planned and shown in blue. Otherwise, the allocations won&#8217;t be published.</p>
+</div>
+<div class="paragraph">
+<p>Once you have published the weekly assignment, all publishers who have applied at least once will be notified via email.
+This completes the planner&#8217;s work and, as a reward, all shifts in the weekly schedule will change to green.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="plan week 07">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_participants_side">3.4. Participant&#8217;s side</h3>
+<div class="paragraph">
+<p>We switch to the publisher&#8217;s side one last time. He received an email with the following information: when and where he was assigned, but also which applications he was not considered for.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="finalize week 01">
+</div>
+</div>
+<div class="paragraph">
+<p>He can see in his calendar when the planner allocated him to an assignment, as the respective shift is colored green.
+If he has set this up previously, his assignments will also appear in his personal calendar.</p>
+</div>
+<div class="paragraph">
+<p>From now on, he can no longer withdraw his application by simply clicking the"Revoke Application" button.
+In the case, that he is unable to attend his assignment, he has no other choice but to contact the planner personally.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_basic_data">4. Basic Data</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Let&#8217;s start with the good news: Basic data is usually set once and after that never again. You can find the following items in your menu and edit them there.</p>
+</div>
+<div class="sect2">
+<h3 id="_circuits_congregations_and_publishers">4.1. Circuits, Congregations, and Publishers</h3>
+<div class="paragraph">
+<p>These terms are well known, so you won&#8217;t find any major surprises here. Every publisher belongs to a congregation, and every congregation to a circuit. There are a few details for each area that you need to know to make the most out of MEP.</p>
+</div>
+<div class="sect3">
+<h4 id="_circuits">4.1.1. Circuits</h4>
+<div class="paragraph">
+<p>Each circuit has exactly one name, one language and one circuit overseer. The circuit overseer is mentioned here because there is an option of sending him a report if he wishes to get an overview of the participation of congregations and publishers in his circuit in the public witnessing in metropolitan areas or the truck driving service.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+In the "Reports" chapter, you will learn how to create the
+<a href="./05-reports.html#reports_circuit_overseer">Report for Circuit Overseers</a> and what you should pay close attention to when doing so.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_congregation">4.1.2. Congregation</h4>
+<div class="paragraph">
+<p>Each congregation has a name, a congregation number, and is assigned to a circuit.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_publisher">4.1.3. Publisher</h4>
+<div class="paragraph">
+<p>In the "Publisher Management" section, you can get an overview of all participants and use MEP to help you send emails to all, selected groups, or only individual publishers.</p>
+</div>
+<div class="paragraph">
+<p>To contact all publishers, simply click the "EMAIL PUBLISHERS" button. Their addresses will be automatically inserted into your email program&#8217;s recipient field.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+If you want to write to several hundred recipients, you may encounter problems, as web services and email programs have a limit on the number of recipients. If this threshold is exceeded, they can sometimes fail to process all the information correctly. How high this threshold is depends on each program. If this happens, you could divide them into smaller groups and contact participants, for example, congregation by congregation. Another option would be to use the news feature on the dashboard.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>If you only want to address a specific group, such as all publishers of one congregation, you can achieve this by using the filter. There are various criteria that you can select as needed. Once you have applied the filter, you can click "EMAIL PUBLISHERS" as described previously.</p>
+</div>
+<div class="paragraph">
+<p>If you only want to contact individual publishers, check the box next to their names. The "ACTION FOR X SELECTED" button will then appear. You now have the option of either sending an email to the participants in question or inviting them. In the latter case, the person will receive an invitation email asking them to create an user account.</p>
+</div>
+<div class="paragraph">
+<p>In the upper right corner, you&#8217;ll find the "DOWNLOAD vCARD" option. The vCard is a standard format for saving contact information such as name, address, telephone number, and email address. This is an easy way to import the contact information of all participants into a program of your choice (e.g., Outlook) without having to enter them all manually.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">important</div>
+</td>
+<td class="content">
+To handle our brothers' data responsibly, it is recommended to use the vCard only locally on your computer. Please do not upload them to the address book of your cloud account with Google, Apple, Microsoft, etc. (see   sfl 22:11, 23) - especially if you use programs like WhatsApp on your mobile phone. Meta (formerly Facebook), for example, is very interested in such data and immediately transfers it to its servers outside the EU for its own purposes.
+A good alternative to the vCard is to export the data to Excel. There you can filter it according to your needs and copy the email addresses into your email program.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>You can get more information about individual publishers by clicking on the small pencil to the right of their name.</p>
+</div>
+<div class="paragraph">
+<p>Each publisher has a name and needs a valid email address that is uniquely assigned to them (email addresses shared by a married couple, for example, are not possible).</p>
+</div>
+<div class="paragraph">
+<p>The gender of the publisher is important because in some areas at least one brother must be present for safety reasons. It is also necessary for correct addressing in communication.</p>
+</div>
+<div class="paragraph">
+<p>Partners can be assigned together for practical reasons, for example, if a married couple or roommates are driving together.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+You can find more information about this under <a href="./06-settings.html#assignment_issues_severities">Assignment Issue Severities</a>.
+You can edit this under the "Planning Settings" menu item.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>The publisher&#8217;s phone number should be their cell phone number so they can be reached on the go. The application also integrates links at various places to directly open a WhatsApp chat with the publisher.</p>
+</div>
+<div class="paragraph">
+<p>The language of the circuit is added automatically. Additionally, any other languages spoken by the publisher can be added, either by the coordinator or by the publishers themselves in their user profile.</p>
+</div>
+<div class="paragraph">
+<p>Other information worth mentioning of the publisher is whether they have a privilege (e.g. pioneer, elders). To train newcomers in this ministry, an experienced publisher can be assigned to assist them. To do this, you indicate under "Level of Experience" whether someone is a beginner or a mentor.</p>
+</div>
+<div class="paragraph">
+<p>Publishers can also be granted special permissions if they are assigned to one or more of the following four roles.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>As an administrator, you have of course more access rights, but also more opportunities to mess things up. Therefore, it is recommended to only grant these privileges to selected people, such as the coordinator and their assistants.</p>
+</li>
+<li>
+<p>As publisher, the person concerned can manage their own profile and apply for released assignments.</p>
+</li>
+<li>
+<p>The VIP role is intended for the circuit overseer and/or coordinator. Not because we apply the principle from 1 Timothy 5:17 literally, but because a VIP is always assigned to the assignment in question. Sometimes the circuit overseer wants to get his own impression of, for example, a particular route. The VIP status ensures that they can do so.</p>
+</li>
+<li>
+<p>The access rights and responsibilities of the team leader include receiving more information for assignments, such as who exactly is on their team and the corresponding phone numbers. They submit a report after the assignment.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If a publisher has been newly created, he must be invited to participate actively. If someone takes a break (e.g. because of pregnancy or because they do not currently meet the criteria) they can be deactivated. In rare cases, it may be necessary to delete a publisher because they have moved away, for example.
+If publishers simply want to change their email address, it is not necessary to delete them only to register them again shortly afterwards with a different email address. Since deleting a profile can sometimes take a while, deleting and immediately re-creating a publisher often causes problems and chaos, as the background processes may not have been completed yet. Therefore, we recommend, as an exception, taking the easy route and simply changing the relevant data in the publisher profile. The planner can make the changes until the publisher has registered himself for the first time. After that, it is the publisher&#8217;s responsibility to keep their profile information up to date.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_depots">4.2. Depots</h3>
+<div class="paragraph">
+<p>The depot where the carts are stored has a name and an address. When a new route is created, the corresponding depot is allocated. Therefore, it is necessary to first create the depot and then the route.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_routes">4.3. Routes</h3>
+<div class="paragraph">
+<p>By a route we mean the way taken during an assignment. A route has a name and a meeting point where the team meets the next team for handover. Furthermore, you can specify the minimum and maximum number of participants and whether one or more brothers should be present for safety reasons. A depot should be specified where the carts are stored. One or more languages can be specified for a route. If multiple languages are specified, it is possible to create a separate team for each language, each on the way on the same route and time.</p>
+</div>
+<div class="paragraph">
+<p>For those using automatic planning, there are a few additional settings: whether the number of participants should always be even and whether the route should be occupied throughout the day. This is useful if the depot is not nearby, so the carts only need to be picked up once in the morning and returned in the evening.</p>
+</div>
+<div class="paragraph">
+<p>In some cases, it may be advisable to limit the number of participants, e.g. if there are very early or very late shifts and it is difficult to maintain the same team size throughout the day. By limiting the number of participants, the planning requirement allows smaller teams to be allowed for the early and/or late shifts instead of canceling the shift altogether.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_reports">5. Reports</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_report_for_the_circuit_overseer">5.1. Report for the Circuit Overseer</h3>
+<div class="paragraph">
+<p>If the Circuit Overseer would like to get an overview of participation in the public witnessing in metropolitan areas or long-distance trucking service, they can request the desired information from the coordinator.
+The coordinator selects which quarter from which year they want to see and finds the following two options.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Copy report link</em>: Basically self-explanatory, this button does exactly what it&#8217;s supposed to. Once copied, you can send the link to the circuit overseer in a way of your choice.</p>
+</li>
+<li>
+<p><em>Pre-fill email</em>: This makes it even easier, as it opens an email in your personal email program that already contains the link and the Circuit Overseer&#8217;s recipient address. You entered this under "Circuit."</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">important</div>
+</td>
+<td class="content">
+Because this link provides access to confidential data, according to the instructions for elders, it should not be sent to the regular email address (cf. sfl 22:1). sfl 22:1).
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="circuit overseer report">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If you don&#8217;t see these options, it is because the link has expired.
+For privacy reasons, it is only valid for 3 months. If you need a new one, click on <em>Renew Report Link</em>, which will generate a current one. You can then copy and send this link.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_branch_office_report">5.2. Branch Office Report</h3>
+<div class="paragraph">
+<p>This option is for when the responsible branch office requests a monthly report on submissions and time spent. Clicking the "Copy Report" button provides a summary of all publications submitted, videos shown, and discussions held. You will also find information on the time spent and the number of participating publishers and pioneers.</p>
+</div>
+<div class="paragraph">
+<p>If you received an Excel form for this report from the branch office, you can copy the data to the clipboard using the "Copy Report" button and paste it directly into Excel.</p>
+</div>
+<div class="paragraph">
+<p>Here, too, you can select the year and month in question.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+The branch office report closes four days after the end of the month and is only available in the interface then.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_report_for_the_organization_team">5.3. Report for the Organization Team</h3>
+<div class="paragraph">
+<p>It essentially contains the same information as the report for the branch office.
+Using the "Download Report Data" function, you will receive an Excel file with all deployment reports for the selected month.
+Unlike the branch office report, where a late report is added to the next month, this report always provides the most recent figures.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_settings">6. Settings</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_planning_settings">6.1. Planning Settings</h3>
+<div class="sect3">
+<h4 id="_functions">6.1.1. Functions</h4>
+<div class="paragraph">
+<p>There are some specific functions that you can configure depending on your area and needs.</p>
+</div>
+<div class="sect4">
+<h5 id="_activate_vehicle_workflow_for_applications">Activate vehicle workflow for applications</h5>
+<div class="paragraph">
+<p>Primarily intended for long-distance truck drivers, this function is also suitable when distances between the depot and the deployment site are very long. When this workflow is activated, each publisher is asked for each application whether they have a vehicle available for this shift. Furthermore, a small car will then appear in the assignment view to indicate that someone has answered yes to this question. If it is essential that a vehicle is available for the assignment, it is recommended to set the weighting of "None of the assigned publishers has a vehicle available" to <em>Error</em> further down under "Weighting of assignment notifications." This ensures that the schedule can only be completed if a vehicle is available.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_share_team_information_with_all_participants_of_the_assignment">Share team information with all participants of the assignment</h5>
+<div class="paragraph">
+<p>This is an option for responsible handling of publisher data. The coordinator can decide whether all publishers of the outreach or only the team leader can see the participants' contact information.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_share_team_information_with_all_participants_of_the_previous_and_subsequent_assignment">Share team information with all participants of the previous and subsequent assignment</h5>
+<div class="paragraph">
+<p>If this feature is enabled, all participants can see the contact information of the publishers of the previous and subsequent assignment. For example, they can provide information about whether the previous assignment took place or where the cards are located. If only the team leader is allowed access to this data, this feature should be disabled.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_notify_subsequent_team_leaders_about_canceled_assignments">Notify subsequent team leaders about canceled assignments</h5>
+<div class="paragraph">
+<p>This controls whether the team leaders of subsequent assignments should also be informed immediately of a possible cancellation.</p>
+</div>
+<div class="paragraph">
+<p>This is useful if further decisions depend on it, for example, if the cards are unexpectedly in the depot and not on the route, or someone else has the depot key.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_allow_team_leaders_to_cancel_assignments">Allow team leaders to cancel assignments</h5>
+<div class="paragraph">
+<p>The coordinator can decide whether the team leader must always consult with them or whether they can decide independently to cancel an assignment.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_allow_participants_to_specify_route_preferences">Allow participants to specify route preferences</h5>
+<div class="paragraph">
+<p>This allows publishers to independently specify in their profile which routes they prefer and which they don&#8217;t.</p>
+</div>
+<div class="paragraph">
+<p>If this feature is enabled, applications in the assignment view will be grouped according to preference for the corresponding route. However, the planner is completely free to respect these preferences or not.</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_assignment_ratio">6.1.2. Assignment ratio</h4>
+<div class="paragraph">
+<p>The assignment ratio is a tool designed to help the planner create a balanced assignment schedule. It appears in the assignment view behind the available publishers.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="assignment ratio">
+</div>
+</div>
+<div class="paragraph">
+<p>It describes the ratio between actual assignments and another value that describes the optimal number of assignments. There are two different options for this value:</p>
+</div>
+<div class="sect4">
+<h5 id="_use_the_actual_applications_during_the_period">Use the actual applications during the period</h5>
+<div class="paragraph">
+<p>In this case, the actual applications during the period in question are considered 100%. If someone applied 10 times and was assigned three times, the assignment rate is 3/10.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_use_the_recommended_number_of_assignments_for_the_period">Use the recommended number of assignments for the period</h5>
+<div class="paragraph">
+<p>This strategy takes into account whether a participant is a pioneer or not. For pioneers, two assignments per week are recommended, and for regular publishers, two assignments per month, or mathematically expressed: 0.5 assignments per week. These values cannot be changed.</p>
+</div>
+<div class="paragraph">
+<p>So, if a pioneer was assigned six times in a four-week period, the assignment rate is 6/8 (two assignments per week times four weeks equals a recommended number of eight).</p>
+</div>
+<div class="paragraph">
+<p>If a regular publisher was also assigned six times during the same period, the assignment rate would be 6/2 (0.5 assignments per week times four weeks equals a recommended number of two).</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+The assignment rate can therefore exceed 100%, indicating that someone has been assigned too often, while very low rates indicate that this participant could enjoy being assigned more often.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>You can set the time period that should serve as the basis for the calculation.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+Automatic planning always uses the recommended number of assignments to calculate the allocation rate.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>If this section has brought up question marks and negative associations with long-gone math lessons, please feel free to request specialist support and have the whole thing explained to you again in an easily understandable way!</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="assignment_issues_severities">6.1.3. Weighting of assignment notes</h4>
+<div class="paragraph">
+<p>Depending on the requirement, you can assign different severity levels to certain conditions. This determines whether violating a requirement during weekly planning&#8230;&#8203;</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>prevents the planning from being completed</p>
+</li>
+<li>
+<p>leads to a warning or a simple notice</p>
+</li>
+<li>
+<p>is not displayed at all</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>This varies by area and is decided by the coordinator. You&#8217;ll quickly find out which points are really important to you and help you with your planning, and which don&#8217;t. Don&#8217;t hesitate to simply try out different variants until you find the best one for you and your area.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+Errors prevent the plan from being published. Warnings are informative, just like information, although the exclamation mark isn&#8217;t quite as red here.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_automatic_planning">6.2. Automatic Planning</h3>
+<div class="sect3">
+<h4 id="_scheduled_automatic_planning">6.2.1. Scheduled Automatic Planning</h4>
+<div class="paragraph">
+<p>Those who use automatic planning have the option of offloading some of their work to someone else&#8230;&#8203;but before your Christian conscience starts to prick up their brains: this is just the planning bot, which will happily take over the planning of a week for you. You can set how many days in advance it should do this and whether it should plan one or several weeks at once.</p>
+</div>
+<div class="paragraph">
+<p>One possibility could look like this: The coordinator wants the week after next to be automatically planned.  So they enter 7 days as the lead time and one week to be planned.</p>
+</div>
+<div class="paragraph">
+<p>Since the first day of the week is always Monday, planning will take place during the night from Sunday to Monday. Just in time for their first coffee on Monday morning, they will find the week after next fully planned. They can review these for any changes, and once everything is satisfactory, they simply need to publish it, after which all participants will receive their assignments.</p>
+</div>
+<div class="paragraph">
+<p>One or more routes can be selected for which a plan should be automatically created.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_news_settings">6.3. News Settings</h3>
+<div class="sect3">
+<h4 id="_delete_expired_news_by_day">6.3.1. Delete Expired News by Day</h4>
+<div class="paragraph">
+<p>Here, the coordinator can set the number of days after which expired news should be deleted.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+This should not be confused with the duration of how long a specific message should be visible. This is specified during creation under the "News" item.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reporting_settings">6.4. Reporting Settings</h3>
+<div class="sect3">
+<h4 id="_publishers_can_create_experiences">6.4.1. Publishers can create experiences</h4>
+<div class="paragraph">
+<p>MEP allows publishers to create experiences and forward them to the coordinator via a secure channel. If this is not desired, the feature can be deactivated.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_environment_settings">6.5. Environment Settings</h3>
+<div class="paragraph">
+<p>These settings should generally not require any changes, as they are correctly preset by the friendly support team on the other side.</p>
+</div>
+<div class="sect3">
+<h4 id="_host_url_for_links_in_emails_sent_by_the_system">6.5.1. Host URL for links in emails sent by the system</h4>
+<div class="paragraph">
+<p>The URL (website address) is used for links in outgoing emails. It does not need to be changed and should not be changed.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_client_name">6.5.2. Client name</h4>
+<div class="paragraph">
+<p>The name of the client (i.e., your public witnessing in metropolitan areas project) is set initially, but can be changed by the coordinator.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_number_and_date_display_and_notification_language">6.5.3. Number and date display and notification language</h4>
+<div class="paragraph">
+<p>Selecting the language also determines the default locale. This sounds very important and complicated, but it really only means that the days of the week and months appear in the respective language, whether the time is displayed in the 24-hour or 12-hour format, and the format in which the date is displayed.
+The specified language applies to all publishers. If a publisher prefers a different language, they can select and change their preferred language in their account.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+The language selected here is only relevant until the respective publisher logs in for the first time. When logging in, MEP uses the language that the publisher has set in their browser.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_email_settings">6.6. Email Settings</h3>
+<div class="sect3">
+<h4 id="_send_emails">6.6.1. Send Emails</h4>
+<div class="paragraph">
+<p>Under this section, you can specify whether emails are sent to participants or not.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+Invitation emails cannot be deactivated. As soon as a new participant is created and invited, they will receive an email, even if the function is disabled.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_sender_name">6.6.2. Sender Name</h4>
+<div class="paragraph">
+<p>The sender&#8217;s name can be changed by the coordinator.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_sender_email_address">6.6.3. Sender Email Address</h4>
+<div class="paragraph">
+<p>The sender address is entered in advance and should only be changed in consultation with the admin team. Careless changes can have serious consequences because the email reputation of the entire metropoliplan.org domain can decline. If this happens, email delivery can be severely impaired for a long time or even lead to emails no longer reaching the recipients.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_default_email_footer">6.6.4. Default Email Footer</h4>
+<div class="paragraph">
+<p>You can specify a standard greeting, which will then appear at the end of each email.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_additional_bcc_recipient">6.6.5. Additional BCC Recipient</h4>
+<div class="paragraph">
+<p>If you want to control how the sent emails look, you can add yourself as an additional BCC recipient.</p>
+</div>
+<div class="paragraph">
+<p>This means, however, that you will receive every single email sent. Depending on the size of your public witnessing in metropolitan areas, this could be over 1,000 messages. This is useful, for example, if someone says they didn&#8217;t receive a message. The coordinator can then check whether it was actually sent or if the problem lies on the other side.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_fixed_recipient">6.6.6. Fixed Recipient</h4>
+<div class="paragraph">
+<p>The line for a fixed recipient is normally empty. You only enter an email address here if you want to do a test run, e.g., before your public witnessing in metropolitan areas is fully launched and you want to make sure everything is working. As soon as you enter an email address (e.g., your own), all emails will be sent exclusively to this address.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_master_data">6.7. Master Data</h3>
+<div class="sect3">
+<h4 id="_default_country_code">6.7.1. Default Country Code</h4>
+<div class="paragraph">
+<p>Here, you simply select the correct area code for your country from the list, and the entered phone numbers will be interpreted correctly.</p>
+</div>
+<div class="paragraph">
+<p>If someone has a foreign area code, it must be entered manually in the publisher&#8217;s profile along with the appropriate country code.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_automatic_deactivation_of_publishers">6.7.2. Automatic Deactivation of Publishers</h4>
+<div class="paragraph">
+<p>MEP can automatically deactivate publishers who are inactive for an extended period of time. The organization&#8217;s guidelines for public witnessing require that all participants receive ongoing training, and this feature helps you with that. If someone hasn&#8217;t participated for several months, it&#8217;s very likely they&#8217;ve missed important updates and will need to be brought up to speed.</p>
+</div>
+<div class="paragraph">
+<p>Please note that someone is considered inactive if they haven&#8217;t participated for a certain number of months, meaning they don&#8217;t appear as "present" in any outreach report. Mere assignment is not sufficient.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+VIP and administrator accounts are not subject to automatic inactivity lock.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>If you don&#8217;t want participants to be automatically deactivated, you can set the following two values to zero.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_inform_publishers_of_inactivity_after_months">6.7.3. Inform publishers of inactivity after months</h4>
+<div class="paragraph">
+<p>This number indicates after how many months of non-participation a friendly email is sent motivating you to participate in the public witnessing in metropolitan areas again.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="PublisherAtRiskToBecomeInactiveMessage">
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_publishers_become_inactive_after_months">6.7.4. Publishers become inactive after months</h4>
+<div class="paragraph">
+<p>This number indicates after how many months of inactivity the publisher is actually deactivated.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_news">7. News</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you want to share important information with your participants, you can easily do so using the News feature. You only have to compose the message once, and it will appear at the top of each publisher&#8217;s personal dashboard.
+If you open the "News" item, an overview of all messages appears. You can also see how many publishers have received the message and the number who have marked it as read. It&#8217;s possible, of course, that a participant reads the news but hasn&#8217;t marked it as read.
+To the right, you can see the time period for which the information will be visible to participants.</p>
+</div>
+<div class="paragraph">
+<p>If you want to compose a new message, click the pink plus button in the bottom right. Then, give it a title and specify the time period for which it should be visible. You have several options to make the content of your message look good:
+You can emphasize words by bolding or italicizing them, and you can insert quotes, lists, and links. To include an image in the message, click the "Add Attachment" button and then browse to the image in your files.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+Please make sure to save the image at the appropriate size beforehand. It is not possible to change the image size after it has been inserted into the message.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>You can also choose whether the message should be visible to all publishers, only to team leaders, or only to VIPs.</p>
+</div>
+<div class="paragraph">
+<p>An example of a news item on the dashboard might look like this:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="news editor example">
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">note</div>
+</td>
+<td class="content">
+Under the "News Settings" menu item, you can specify how long expired news items should be saved.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>If a participant has not marked a news item as read and is assigned to a mission the following day, he or she will also receive an email informing him or her that there is new information on the homepage.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2026-01-25 15:31:55 UTC
+</div>
+</div>
+</body>
+</html>
