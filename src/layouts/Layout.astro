@@ -20,17 +20,19 @@ const t = initI18n(Astro.currentLocale!);
         <title>{title}</title>
     </head>
     <body>
+        <header class="lang-header">
+            <select id="language-selector" class="language-dropdown">
+                <option value="/" data-label="Deutsch" selected={Astro.currentLocale === 'de'}>Deutsch</option>
+                <option value="/es" data-label="Español" selected={Astro.currentLocale === 'es'}>Español</option>
+                <option value="/en" data-label="English" selected={Astro.currentLocale === 'en'}>English</option>
+            </select>
+        </header>
         <slot />
         <footer>
             <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'privacy')}>
                 {t('privacyPolicy')}
             </a>
-            <ul>
-                <li class="lang"><a href="/">Deutsch</a></li>
-                <li class="lang"><a href="/es">Español</a></li>
-                <li class="lang"><a href="/en">English</a></li>
-            </ul>
-            <p class="copyright">© The Metropoliplan Team 2015-2025</p>
+            <p class="copyright">© The Metropoliplan Team 2015-2026</p>
         </footer>
     </body>
 </html>
@@ -54,11 +56,26 @@ const t = initI18n(Astro.currentLocale!);
       list-style: disc inside;
       padding-left: 1.5em;
     }
-    .lang {
-        display: inline;
+    .lang-header {
+        margin: auto;
+        width: 800px;
+        max-width: calc(100% - 2rem);
+        padding: 1rem 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
-    .lang + .lang::before {
-        content: ' | ';
+    .language-dropdown {
+        padding: 0.5rem;
+        border: 2px solid rgb(var(--accent));
+        border-radius: 4px;
+        background-color: white;
+        color: rgb(var(--accent-dark));
+        font-size: 0.95rem;
+        cursor: pointer;
+    }
+    .language-dropdown:hover {
+        background-color: var(--accent-bg);
     }
     html {
         min-height: 100%;
@@ -94,3 +111,13 @@ const t = initI18n(Astro.currentLocale!);
         font-size: 0.8rem;
     }
 </style>
+
+<script>
+    const languageSelector = document.getElementById('language-selector');
+    if (languageSelector) {
+        languageSelector.addEventListener('change', (e) => {
+            const target = e.target as HTMLSelectElement;
+            window.location.href = target.value;
+        });
+    }
+</script>
