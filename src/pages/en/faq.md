@@ -55,7 +55,7 @@ The team consists of several brothers, all of whom are capable of continuing to 
 We're not perfect, but we take this project very seriously and do our best to make sure everything runs as smoothly as possible. We are happy to provide you with our documentation or put you in touch with reference projects so that you can form your own impression.
 
 ## If I have problems with your system, what should I do? And when can I expect a response?
-We have a support address that you can contact if you have any problems or suggestions. Urgent problems and emergencies are dealt with immediately. Less urgent requests are dealt with afterwards. All brothers and sisters in the team do this in their spare time alongside their family and theocratic commitments...and as you know, this is sometimes extremely limited.
+We have a support address that you can contact if you have any problems or suggestions. Urgent problems and emergencies are dealt with immediately. Less urgent requests are dealt with afterwards. All brothers and sisters in the team do this in their spare time. Alongside family and theocratic commitments, which, as you know, can sometimes be very limited.
 
 ## How many users and projects does your software have?
 There are 28 clients spread across Germany, Luxembourg, Switzerland, and Argentina. Metropoliplan is currently used by 11,400 publishers (as of July 2025).
