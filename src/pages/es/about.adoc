@@ -1,0 +1,105 @@
+= Qué es Metropoliplan (MEP)
+:layout: ../../layouts/Legal.astro
+
+== Propósito de Metropoliplan
+
+Metropoliplan se desarrolló para las necesidades especiales de la testificación pública en las regiones metropolitanas. Además, también se han integrado procesos para testificar en las áreas de descanso.
+
+Este software NO está diseñado para carros de testificación a nivel de congregación. Una simple hoja de cálculo de Google o Excel Online es mucho más fácil aquí, ya que los grupos pueden organizarse.
+
+Los grupos objetivo de Metropoliplan son específicamente equipos organizativos que tienen que coordinar grandes proyectos con muchas congregaciones. En estas escalas, la autoorganización ya no funciona y requiere más control.
+
+== Interfaz de usuario
+
+image::/UserAndAdminDashboard.png[Dashboard]
+
+Panel de usuario que muestra noticias y también aplicaciones y asignaciones recientes.
+
+image::/PlannerCalender.png[Calendar]
+
+Vista de administrador en el calendario de planificación. El calendario de aplicaciones y el calendario de planificación funcionan de la misma forma sencilla que le gustaría utilizar su calendario de Microsoft Outlook.
+
+== Características
+
+=== Metropoliplan es:
+
+* Un sitio web alojado de forma centralizada
+(es decir, no tiene que operar los sistemas usted mismo)
+* Se puede utilizar con cualquier navegador moderno (no se requieren aplicaciones)
+* Una solución multilingüe:
+** Inglés
+** Alemán
+** Francés
+** Español
+** Ruso
+** (otros idiomas bajo petición)
+* Compatible con múltiples inquilinos (es decir, si tiene editores que participan en varios proyectos, pueden usar las mismas credenciales de inicio de sesión)
+* gratuito (aunque nos encantaría recibir una pequeña ayuda financiera voluntaria para la operación)
+* Optimizado para proyectos grandes y muy grandes (50-5000 usuarios)
+* Cumple con la protección de datos (RGPD)
+** Tiene en cuenta las necesidades actuales
+** Almacena solo los datos necesarios para el proceso
+** Los datos se transmiten encriptados
+** Las copias de seguridad se almacenan externamente de forma encriptada
+** Los datos personales pueden ser eliminados
+** El usuario debe aceptar activamente los términos de uso
+** La política de privacidad se puede ver en cualquier momento
+* Plataforma segura
+** Mecanismos de protección extensivos previenen el acceso de personas no autorizadas
+** operado en un centro de datos alemán
+* es internacional, profesional y confiable
+** El equipo consta de varios desarrolladores de software profesionales e integradores de sistemas de TI de varios países (Alemania, Argentina, Malta) que también son sirvientes en sus congregaciones
+** tiene oficiales de protección de datos y un auditor de protección de datos
+* Un sistema que ha sido probado durante años y se ha desarrollado aún más (desde 2015)
+** y al mismo tiempo un sistema que utiliza tecnologías de última generación
+
+=== Highlights - Metropoliplan ofrece:
+
+* Una descripción general de planificación central para rutas y turnos
+** Fácil de usar (como un calendario de Outlook)
+** Compatibilidad con múltiples rutas durante un turno
+** Función de asignación optimizada para tabletas (principio de tantos clics como sea necesario)
+** Definición diferenciada de líderes de equipo
+** Reglas de alerta extensivas para conflictos de asignación
+** Turnos compatibles en diferentes idiomas
+** Restricción de asignación para ciertos turnos
+** Teniendo en cuenta el nivel de conocimiento de los participantes
+* Muchas comodidades para editores
+** Solicitudes automáticas
+** Notificaciones automáticas
+** El calendario del teléfono inteligente personal se actualiza automáticamente (no hay necesidad de archivos iCAL o entradas manuales)
+** El líder del equipo puede ser llamado directamente
+** Panel central con todas las funciones relevantes de un vistazo
+** Consideración automática de solicitudes del socio de servicio o cónyuge
+* Una plataforma de información centralizada integrada
+** Sistema de mensajes incl. visualización de estado de lectura
+** Almacenamiento de archivos (p. ej., para documentos del proyecto)
+** Videos de capacitación central
+* Gestión de usuarios basada en roles
+** con varias opciones de exportación (vCard, Excel)
+* Una función de programación automática
+* Un sistema de solicitud automática
+** El calendario de disponibilidad desencadena solicitudes automáticas y tiene en cuenta las ausencias
+** Los editores pueden contar rutas preferidas
+* Numerosas funciones para líderes de equipo
+** Vista optimizada del equipo y opciones de contacto para líderes de equipo en turnos anteriores y posteriores
+** Los participantes pueden ser llamados directamente desde la vista (utiliza teléfono inteligente integrado)
+* Función especial para testificar en carreteras
+** por solicitud se puede preguntar si hay un vehículo disponible
+* Sistema de informes extensivo
+** Informe para el equipo de coordinación (en tiempo real)
+** Informe cerrado para la oficina de rama (a partir de 10 días del mes siguiente)
+** Informes del Superintendente de Circuito
+
+La lista muestra solo los aspectos destacados esenciales.
+Hay muchas más características útiles.
+
+=== Roadmap
+
+* Sistema de comunicación de emergencia
+* Apertura controlada por software y hardware de depósitos solo para participantes durante su día de turno
+* y mucho más. ¡Estén atentos!
+
+=== ¿Curioso?
+
+* Envíenos un correo electrónico a team (AT) metropoliplan (DOT) org

@@ -1,12 +1,12 @@
 {
     "description": "Software to Organize Public Witnessing in Metropolitan Areas",
-    "overview": "Overview",
-    "overviewDescription": "Here you will find information about the software and answers to the most frequently asked questions.",
+    "about": "About",
+    "aboutDescription": "Here you will find a short description of our Software and what it can do.",
     "documentation": "Coordinators' Handbook",
     "documentationDescription": "Learn how to use Metropoliplan for public witnessing in metropolitan areas.",
     "status": "System Status",
     "statusDescription": "Metropoliplan status and availability. Recent updates an incidents.",
     "privacyPolicy": "Privacy Policy",
     "faq": "FAQ",
-    "faqDescription": "In our FAQ section you will find answers to the most frequently asked questions overview our software."
+    "faqDescription": "In our FAQ section you will find answers to the most frequently asked questions about our software."
 }
