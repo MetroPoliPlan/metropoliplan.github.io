@@ -50,7 +50,10 @@ export default function asciidocIntegration(): AstroIntegration {
                         const html = doc.convert();
 
                         // Create the markdown file with frontmatter
-                        const mdFile = adocFile.replace(/\.adoc$/, '.md');
+                        // Remove leading underscore from filename if present (_about.adoc -> about.md)
+                        let mdFile = adocFile.replace(/\.adoc$/, '.md');
+                        mdFile = mdFile.replace(/\/_([^/]+)$/, '/$1');
+
                         const mdContent = `---
 layout: ${layout}
 ---
