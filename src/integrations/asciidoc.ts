@@ -24,7 +24,7 @@ export default function asciidocIntegration(): AstroIntegration {
     return {
         name: 'asciidoc-integration',
         hooks: {
-            'astro:build:start': async () => {
+            'astro:build:setup': async () => {
                 console.log('[asciidoc] Converting .adoc files to HTML...');
 
                 // Find all .adoc files in src/pages
