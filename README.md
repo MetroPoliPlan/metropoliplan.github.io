@@ -11,7 +11,7 @@ Within the `src/pages/` directory are language specific directories that ultimat
 ├── src/
 │   └── pages/
 │       └── de
-│           └── imprint.md
+│           └── about.md
 │           └── privacy.md
 ```
 
