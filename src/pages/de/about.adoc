@@ -1,5 +1,5 @@
 = Was Metropoliplan (MEP) ist
-:layout: ../layouts/Legal.astro
+:layout: ../../layouts/Legal.astro
 
 == Zweck von Metropoliplan
 

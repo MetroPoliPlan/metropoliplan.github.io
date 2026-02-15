@@ -1,5 +1,5 @@
 = Datenschutzerklärung
-:layout: ../layouts/Legal.astro
+:layout: ../../layouts/Legal.astro
 
 == Wer wir sind
 

@@ -1,5 +1,5 @@
 = Ist Metropoliplan was für mein ÖZB?
-:layout: ../layouts/Legal.astro
+:layout: ../../layouts/Legal.astro
 
 == Was macht eure Software?
 MEP ist speziell für das öffentliche Zeugnisgeben in Ballungszentren entwickelt worden. Es ermöglicht die Koordination sehr vieler Verkündiger über mehrere Versammlungen hinweg.
