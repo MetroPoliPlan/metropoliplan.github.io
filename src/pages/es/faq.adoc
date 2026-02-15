@@ -1,0 +1,75 @@
+= ¿Es Metropoliplan adecuado para mi testificación pública?
+:layout: ../../layouts/Legal.astro
+
+== ¿Qué hace tu software?
+
+Metropoliplan ha sido especialmente desarrollado para la testificación pública en áreas metropolitanas. Permite la coordinación de un gran número de publicadores en múltiples congregaciones.
+
+== ¿Cómo me ayuda tu software a organizar la testificación pública?
+
+El coordinador y sus asistentes pueden asignar publicadores a turnos y asegurar que siempre haya alguien que actúe como líder de equipo. Los turnos se asignan según la ubicación, hora y disponibilidad de los participantes. También se puede registrar información adicional, como privilegios especiales o requisitos particulares (por ejemplo, si se necesita un automóvil).
+
+== ¿A partir de cuántos participantes tiene sentido usar tu software?
+
+La cantidad de participantes no es el factor decisivo para usar nuestro software. Puede funcionar bien para grupos más pequeños, comenzando desde alrededor de 100 participantes. El software es especialmente útil cuando hay múltiples congregaciones o estructuras organizativas complejas. Para proyectos más pequeños, vale la pena considerar si el enfoque estructurado simplifica la coordinación o añade una complejidad innecesaria.
+
+== ¿Cuánto cuesta usar tu sistema?
+
+No operamos este proyecto con fines de lucro. El software es gratuito de usar. Algunos servicios de terceros involucrados en la operación del sistema pueden tener costos continuos, pero estos se manejan por separado y no afectan el acceso al sistema.
+
+== ¿Necesito instalar o ejecutar algo en mi computadora?
+
+No, no es necesario instalar nada. Funciona a través de tu navegador y también funciona bien en teléfonos móviles.
+
+== ¿Hay funciones automáticas que me ayuden a ahorrar tiempo?
+
+Absolutamente, porque para eso fue construido. Los equipos pueden organizarse manualmente o automáticamente. Cada publicador tiene su propia cuenta a través de la cual puede iniciar y cerrar sesión. Cada publicador puede ver información importante sobre sus asignaciones, solicitar turnos, retirar solicitudes y ofrecerse como sustituto en su página de inicio.
+Con la planificación automática, un algoritmo genera sugerencias para la planificación de asignaciones, teniendo en cuenta tus criterios locales. Esto significa que hace la mayor parte del trabajo por ti.
+
+== ¿Qué hay sobre la protección de datos?
+
+La protección de datos es muy importante para nosotros. Aseguramos que el procesamiento de datos se realice de acuerdo con las disposiciones legales aplicables, en particular, por supuesto, el RGPD y la LSSI. Para la seguridad de la información, adherimos a la protección base de TI de la Oficina Federal de Seguridad de la Información (BSI). Para los componentes que requieren un alto nivel de protección, solo trabajamos con proveedores de servicios que tienen la certificación ISO 27001 relevante. Si deseas verlo por ti mismo, estaremos felices de enviarte nuestro concepto de protección de datos y seguridad de TI.
+
+== ¿Es el software adecuado para personas mayores y aquellas que no están familiarizadas con la tecnología?
+
+Sí. Nos esforzamos por hacer el programa lo más simple e intuitivo posible.
+
+== ¿Se requiere una aplicación? ¿Cómo pueden acceder los publicadores a tu software?
+
+No se requiere una aplicación. Como Metropoliplan es completamente basado en web, simplemente puedes abrirlo en tu navegador y colocarlo en la pantalla de inicio de tu teléfono, como una aplicación. No es necesario descargar nada de una tienda de aplicaciones.
+
+== ¿Los usuarios necesitan un teléfono inteligente / acceso a Internet?
+
+El acceso a Internet y una dirección de correo electrónico válida son esenciales, ya que no hay funcionalidad sin conexión. Un teléfono inteligente no es absolutamente necesario, pero facilita mucho las cosas.
+
+== Necesito reportes completos. ¿Están disponibles?
+
+Sí. Los reportes sobre las actividades de los publicadores pueden generarse usando el software.
+
+== ¿Cómo agrego participantes al software?
+
+Para configurar una ubicación, primero importamos todos los datos de contacto de los participantes. Si nuevos publicadores se unen más tarde, puedes agregarlos fácilmente tú mismo.
+
+== ¿Para qué otras actividades teocráticas se puede usar tu software?
+
+Metropoliplan fue desarrollado principalmente para organizar la testificación pública en áreas metropolitanas. Sin embargo, también se puede usar para otros proyectos como Comités de Ayuda en Desastres (CAD), testificación en camión, testificación en barco, o carritos costeros.
+
+== ¿Qué idioma necesitan conocer los participantes para usar el sistema?
+
+Metropoliplan puede mostrarse en alemán, inglés, español, francés o ruso, por ahora. Si alguien está dispuesto a traducir el software a otro idioma, es bienvenido a hacerlo en cualquier momento.
+
+== ¿Puedo planificar usar el sistema para los próximos 5 años? ¿Qué tan seguro es el uso a largo plazo del sistema? (Las conversiones siempre son muy costosas y se pierden algunos datos.)
+
+El equipo consta de varios hermanos, todos capaces de continuar operando el sistema. Además, tenemos experiencia operando el sistema, ya que Metropoliplan se ha utilizado desde 2017. Esto significa que ya hemos pasado las etapas iniciales y el sistema es estable para el uso a largo plazo. Teóricamente, puedes usarlo hasta el Nuevo Mundo, aunque naturalmente esperamos que completamente diferentes posibilidades nos aguarden allá.
+
+== No nos conocemos personalmente. Bueno, son hermanos (como lo evidencia la dirección jwpub), pero ni Bezalel ni Aholiab. ¿Por qué debería confiar en ustedes?
+
+No somos perfectos, pero tomamos este proyecto muy en serio y hacemos lo mejor para asegurar que todo funcione sin problemas. Estamos felices de proporcionarte nuestra documentación o ponerte en contacto con proyectos de referencia para que puedas formarte tu propia opinión.
+
+== Si tengo problemas con tu sistema, ¿qué hago? ¿Y cuándo puedo esperar una respuesta?
+
+Tenemos una dirección de soporte a la que puedes contactar si tienes algún problema o sugerencia. Los problemas urgentes y las emergencias se tratan de inmediato. Las solicitudes menos urgentes se tratan después. Todos los hermanos y hermanas del equipo hacen esto en su tiempo libre, junto con compromisos familiares y teocráticos, que como sabes, a veces pueden ser muy limitados.
+
+== ¿Cuántos usuarios y proyectos tiene tu software?
+
+Hay 28 clientes distribuidos entre Alemania, Luxemburgo, Suiza y Argentina. Metropoliplan actualmente es utilizado por 11,400 publicadores (a partir de julio de 2025).

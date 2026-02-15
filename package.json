@@ -10,12 +10,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.0",
+    "@astrojs/check": "^0.7.0",
     "add": "^2.0.6",
-    "astro": "^5.0.0",
-    "astro-asciidoc": "^0.1.0",
+    "asciidoctor": "^3.0.4",
+    "astro": "^4.16.19",
     "i18next": "^23.10.1",
     "typescript": "^5.3.3",
+    "vite": "^5.4.0",
     "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3"
   }
 }

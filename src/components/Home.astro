@@ -9,7 +9,11 @@ interface Props {
     locale: string;
 }
 
-const t = initI18n(Astro.props.locale);
+const currentLocale = Astro.currentLocale!;
+const t = initI18n(currentLocale);
+
+// Build locale-specific URLs - all locales use /[locale]/page/ format
+const getPageUrl = (page: string) => `/${currentLocale}/${page}/`;
 ---
 
 <Layout title={`Metropoliplan - ${t('description')}`}>
@@ -21,21 +25,21 @@ const t = initI18n(Astro.props.locale);
         <p class="description">{t('description')}</p>
         <ul role="list" class="link-card-grid">
             <Card
-                href={getRelativeLocaleUrl(Astro.props.locale, 'about')}
+                href={getPageUrl('about')}
                 title={t('about')}
                 body={t('aboutDescription')}
             >
                 <span slot="icon">ℹ️</span>
             </Card>
             <Card
-                href={getRelativeLocaleUrl(Astro.props.locale, 'faq')}
+                href={getPageUrl('faq')}
                 title={t('faq')}
                 body={t('faqDescription')}
             >
                 <span slot="icon">❓</span>
             </Card>
             <Card
-                href={`/index-${Astro.props.locale}.html`}
+                href={`/index-${Astro.currentLocale}.html`}
                 title={t('documentation')}
                 body={t('documentationDescription')}
             >

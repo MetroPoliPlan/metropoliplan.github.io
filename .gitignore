@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 .vscode
 package-lock.json
+
+# Generated markdown files from AsciiDoc
+src/pages/**/*.md
