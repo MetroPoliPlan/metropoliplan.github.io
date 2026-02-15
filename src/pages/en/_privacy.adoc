@@ -5,7 +5,7 @@
 
 We are the team behind the metropoliplan.org software.
 
-The website address https://www.metropoliplan.org is a static website that explains our software in more detail.
+The website https://www.metropoliplan.org is a static website that explains our software in more detail.
 
 == Data Collection by GitHub Pages
 

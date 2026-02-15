@@ -1,5 +1,4 @@
 ---
-import { getRelativeLocaleUrl } from 'astro:i18n';
 import { initI18n } from '../i18n';
 
 interface Props {
@@ -7,7 +6,11 @@ interface Props {
 }
 
 const { title } = Astro.props;
-const t = initI18n(Astro.currentLocale!);
+const currentLocale = Astro.currentLocale!;
+const t = initI18n(currentLocale);
+
+// Build locale-specific URLs - all locales use /[locale]/page/ format
+const getPageUrl = (page: string) => `/${currentLocale}/${page}/`;
 ---
 
 <!doctype html>
@@ -29,7 +32,7 @@ const t = initI18n(Astro.currentLocale!);
         </header>
         <slot />
         <footer>
-            <a href={getRelativeLocaleUrl(Astro.currentLocale!, 'privacy')}>
+            <a href={getPageUrl('privacy')}>
                 {t('privacyPolicy')}
             </a>
             <p class="copyright">© The Metropoliplan Team 2015-2026</p>
