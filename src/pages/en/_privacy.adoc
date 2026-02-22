@@ -7,9 +7,19 @@ We are the team behind the metropoliplan.org software.
 
 The website https://www.metropoliplan.org is a static website that explains our software in more detail.
 
+For purely static website hosting, according to the Bavarian Data Protection Authority, this does not constitute contract data processing.
+
 == Data Collection by GitHub Pages
 
-This website is hosted on GitHub Pages. GitHub Pages automatically collects standard server log data when you access this website, including:
+This website is hosted on GitHub Pages.
+The operator is GitHub Inc. 88 Colin P Kelly Jr St San Francisco, CA 94107 USA
+
+GitHub is the recipient of your personal data.
+This corresponds to our legitimate interest under Article 6(1)(f) of the GDPR, namely not having to maintain our own server infrastructure.
+Server location is USA.
+For more information, see the link:https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement[GitHub Privacy Statement].
+
+GitHub Pages automatically collects standard server log data when you access this website, including:
 
 * IP addresses
 * Referrer information
@@ -18,18 +28,7 @@ This website is hosted on GitHub Pages. GitHub Pages automatically collects stan
 * Browser and operating system details
 * Data transfer amounts
 
-== Data Processor
-
-*GitHub Inc.*
-88 Colin P Kelly Jr St
-San Francisco, CA 94107
-USA
-
-GitHub acts as the data recipient. For more information, see the link:https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement[GitHub Privacy Statement].
-
-== Legal Basis
-
-GitHub justifies data processing under Article 6(1)(f) of the GDPR based on legitimate interest in maintaining website stability and security. As the website operator, you have no direct access to this data and we do not engage in tracking.
+GitHub justifies data processing under Article 6(1)(f) of the GDPR based on legitimate interest in maintaining website stability and security. No tracking occurs and we have no direct access to this data.
 
 == International Data Transfers
 
@@ -38,7 +37,3 @@ GitHub implements safeguards for international data transfers based on EU Standa
 == Contact Information
 
 If you have questions about this privacy policy, please contact us at: team@metropoliplan.org
-
-== Note
-
-This privacy policy was created with the support of link:https://opr.vc[opr.vc].

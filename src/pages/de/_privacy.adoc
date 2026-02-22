@@ -5,11 +5,24 @@
 
 Wir sind das Team hinter der Software metropoliplan.org.
 
-Die Website https://www.metropoliplan.org, ist eine statische Website die unsere Software näher erklärt.
+Die Website https://www.metropoliplan.org,
+ist eine statische Website die unsere Software näher erklärt.
+
+Bei einem rein statischen Hosting von Webseiten handelt es sich
+lt. dem  bayerischen Landesamt für Datenschutzaufsicht nicht um eine Auftragsverarbeitung.
 
 == Datenerfassung durch GitHub Pages
 
-Diese Website wird auf GitHub Pages gehostet. GitHub Pages erfasst automatisch Standard-Server-Protokolldaten, wenn Sie auf diese Website zugreifen, darunter:
+Diese Website wird auf GitHub Pages gehostet,
+der Betreiber ist GitHub Inc. 88 Colin P Kelly Jr St San Francisco, CA 94107 USA
+
+Entsprechend ist GitHub ist Empfänger Ihrer personenbezogenen Daten.
+Dies entspricht unserem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO,
+selbst keinen Server in unseren Räumlichkeiten vorhalten zu müssen.
+Serverstandort ist USA.
+Weitere Informationen finden Sie in der link:https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement[GitHub Datenschutzerklärung].
+
+GitHub Pages erfasst automatisch Standard-Server-Protokolldaten, wenn Sie auf diese Website zugreifen, darunter:
 
 * IP-Adressen
 * Referrer-Informationen
@@ -18,18 +31,8 @@ Diese Website wird auf GitHub Pages gehostet. GitHub Pages erfasst automatisch S
 * Browser- und Betriebssystem-Details
 * Datenübertragungsmengen
 
-== Datenverarbeiter
-
-*GitHub Inc.*
-88 Colin P Kelly Jr St
-San Francisco, CA 94107
-USA
-
-GitHub fungiert als Datenempfänger. Weitere Informationen finden Sie in der link:https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement[GitHub Datenschutzerklärung].
-
-== Rechtsgrundlage
-
-GitHub begründet die Datenverarbeitung unter Artikel 6(1)(f) der DSGVO mit dem Interesse an der Aufrechterhaltung der Website-Stabilität und -Sicherheit. Als Website-Betreiber haben Sie keinen direkten Zugriff auf diese Daten und betreiben keine Verfolgung (Tracking).
+GitHub begründet die Datenverarbeitung unter Artikel 6(1)(f) der DSGVO mit dem Interesse an der Aufrechterhaltung der Website-Stabilität und -Sicherheit.
+Es erfolgt kein Tracking und wir haben auf diese Daten keinen direkten Zugriff.
 
 == Internationale Datentransfers
 
@@ -38,7 +41,3 @@ GitHub implementiert Schutzmaßnahmen für internationale Datentransfers basiere
 == Kontaktinformationen
 
 Bei Fragen zur Datenschutzerklärung kontaktieren Sie uns unter: team@metropoliplan.org
-
-== Hinweis
-
-Diese Datenschutzerklärung wurde mit Unterstützung von link:https://opr.vc[opr.vc] erstellt.

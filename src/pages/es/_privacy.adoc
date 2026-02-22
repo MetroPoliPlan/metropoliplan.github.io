@@ -7,9 +7,19 @@ Somos el equipo detrás del software metropoliplan.org.
 
 La dirección del sitio web https://www.metropoliplan.org es un sitio web estático que explica nuestro software con más detalle.
 
+Para el alojamiento puramente estático de sitios web, según la Autoridad de Protección de Datos de Baviera, esto no constituye un procesamiento de datos por contrato.
+
 == Recopilación de datos por GitHub Pages
 
-Este sitio web se aloja en GitHub Pages. GitHub Pages recopila automáticamente datos de registro del servidor estándar cuando accede a este sitio web, incluidos:
+Este sitio web se aloja en GitHub Pages.
+El operador es GitHub Inc. 88 Colin P Kelly Jr St San Francisco, CA 94107 USA
+
+GitHub es el receptor de sus datos personales.
+Esto corresponde a nuestro interés legítimo bajo el Artículo 6(1)(f) del RGPD, a saber, no tener que mantener nuestra propia infraestructura de servidores.
+La ubicación del servidor es USA.
+Para más información, consulte la link:https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement[Declaración de privacidad de GitHub].
+
+GitHub Pages recopila automáticamente datos de registro del servidor estándar cuando accede a este sitio web, incluidos:
 
 * Direcciones IP
 * Información de referencia
@@ -18,18 +28,7 @@ Este sitio web se aloja en GitHub Pages. GitHub Pages recopila automáticamente 
 * Detalles del navegador y sistema operativo
 * Cantidades de transferencia de datos
 
-== Procesador de datos
-
-*GitHub Inc.*
-88 Colin P Kelly Jr St
-San Francisco, CA 94107
-USA
-
-GitHub actúa como receptor de datos. Para más información, consulte la link:https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement[Declaración de privacidad de GitHub].
-
-== Base legal
-
-GitHub justifica el procesamiento de datos bajo el Artículo 6(1)(f) del RGPD basado en el interés legítimo de mantener la estabilidad y seguridad del sitio web. Como operador del sitio web, no tiene acceso directo a estos datos y no realizamos seguimiento.
+GitHub justifica el procesamiento de datos bajo el Artículo 6(1)(f) del RGPD basado en el interés legítimo de mantener la estabilidad y seguridad del sitio web. No se realiza seguimiento y no tenemos acceso directo a estos datos.
 
 == Transferencias internacionales de datos
 
@@ -38,7 +37,3 @@ GitHub implementa salvaguardias para transferencias internacionales de datos bas
 == Información de contacto
 
 Si tiene preguntas sobre esta política de privacidad, contáctenos en: team@metropoliplan.org
-
-== Nota
-
-Esta política de privacidad fue creada con el apoyo de link:https://opr.vc[opr.vc].
