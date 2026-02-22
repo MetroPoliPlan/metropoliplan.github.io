@@ -16,7 +16,7 @@ lt. dem  bayerischen Landesamt für Datenschutzaufsicht nicht um eine Auftragsve
 Diese Website wird auf GitHub Pages gehostet,
 der Betreiber ist GitHub Inc. 88 Colin P Kelly Jr St San Francisco, CA 94107 USA
 
-Entsprechend ist GitHub ist Empfänger Ihrer personenbezogenen Daten.
+Entsprechend ist GitHub der Empfänger Ihrer personenbezogenen Daten.
 Dies entspricht unserem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO,
 selbst keinen Server in unseren Räumlichkeiten vorhalten zu müssen.
 Serverstandort ist USA.
